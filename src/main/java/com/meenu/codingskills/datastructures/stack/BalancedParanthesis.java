@@ -6,7 +6,7 @@ public class BalancedParanthesis {
 	static int top = -1;
 	static boolean balanced = true;
 
-	public static void main(String[] args) {
+	public void findSolution() {
 
 		String input = ")(";  //"{[()]}"; // "{][()" ; 
 		System.out.println("input : " + input);
@@ -32,11 +32,11 @@ public class BalancedParanthesis {
 			System.out.println("Not balanced");
 	}
 
-	public static void push(char value) {
+	private void push(char value) {
 		arr[++top] = value;
 	}
 	
-	public static char pop() {
+	private char pop() {
 		return arr[top--];
 	}
 }

@@ -13,7 +13,7 @@ public class InorderSuccessor {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		Node root = null;
 		root = insert(root, 15);
 		root = insert(root, 10);
@@ -37,7 +37,7 @@ public class InorderSuccessor {
 			System.out.println("\nSuccessor : " + successor.data);
 	}
 	
-	public static Node getSuccessor(Node root, int value) {
+	private Node getSuccessor(Node root, int value) {
 		Node current = findNode(root, value);
 		if(current == null)
 			return null;
@@ -60,7 +60,7 @@ public class InorderSuccessor {
 		}
 	}
 	
-	public static Node findMin(Node root) {
+	private Node findMin(Node root) {
 		if(root == null)
 			return root;
 		while(root.left != null)
@@ -68,7 +68,7 @@ public class InorderSuccessor {
 		return root;
 	}
 	
-	public static Node findNode(Node root, int value) {
+	private Node findNode(Node root, int value) {
 		if(root == null)
 			return null;
 		else if(root.data == value)
@@ -79,14 +79,14 @@ public class InorderSuccessor {
 			return findNode(root.right, value);
 	}
 	
-	public static Node createNewNode(int value) {
+	private Node createNewNode(int value) {
 		Node newNode = new Node(value);
 		newNode.left = null;
 		newNode.right = null;
 		return newNode;
 	}
 	
-	public static Node insert(Node rootPtr, int value) {
+	private Node insert(Node rootPtr, int value) {
 		if(rootPtr == null) {
 			rootPtr = createNewNode(value);
 		}
@@ -99,11 +99,11 @@ public class InorderSuccessor {
 	}
 	
 	//Function to visit nodes in Inorder
-		public static void inorder(Node root) {
-			if(root == null) return;
-		 
-			inorder(root.left);       //Visit left subtree
-			System.out.print(root.data + " ");  //Print data
-			inorder(root.right);      // Visit right subtree
-		}
+	private void inorder(Node root) {
+		if(root == null) return;
+		
+		inorder(root.left);       //Visit left subtree
+		System.out.print(root.data + " ");  //Print data
+		inorder(root.right);      // Visit right subtree
+	}
 }

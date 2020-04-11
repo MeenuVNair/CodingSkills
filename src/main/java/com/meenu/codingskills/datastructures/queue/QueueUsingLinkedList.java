@@ -14,7 +14,7 @@ public class QueueUsingLinkedList {
 		}
 	}
 
-	public static void main(String[] args) {
+	public void findSolution() {
 		enqueue(1);
 		enqueue(2);
 		dequeue();
@@ -25,7 +25,7 @@ public class QueueUsingLinkedList {
 		enqueue(6);
 	}
 
-	public static void enqueue(int value) {
+	private void enqueue(int value) {
 		Node newNode = new Node(value);
 		newNode.next = null;
 		if(front == null && rear == null) {
@@ -38,7 +38,7 @@ public class QueueUsingLinkedList {
 		printQueue();
 	}
 	
-	public static void dequeue() {
+	private void dequeue() {
 		if(front == null)
 			return;
 		if(front == rear)
@@ -49,7 +49,7 @@ public class QueueUsingLinkedList {
 		printQueue();
 	}
 	
-	public static void printQueue() {
+	private void printQueue() {
 		System.out.println("Queue : ");
 		Node temp = front;
 		while(temp != null) {

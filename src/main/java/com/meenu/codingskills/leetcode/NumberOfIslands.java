@@ -26,27 +26,26 @@ Output: 3
 
 public class NumberOfIslands {
 
-	public static void main(String[] args) {
+	public void findSolution() {
 		char grid[][] = new char[][] {	{'1','1','0','0','0'},
 										{'1','1','0','0','0'},
 										{'0','0','1','0','0'},
 										{'0','0','0','1','1'}
 									};
-				
-									/*{	{'1','1','1','1','0'},
-										{'1','1','0','1','0'},
-										{'1','1','0','0','0'},
-										{'0','0','0','0','0'}
-									};*/
-									
-		NumberOfIslands obj = new NumberOfIslands();
-		obj.printGrid(grid);
-		int numIslands = obj.findNumIslands(grid);
+
+		/*{	{'1','1','1','1','0'},
+			{'1','1','0','1','0'},
+			{'1','1','0','0','0'},
+			{'0','0','0','0','0'}
+		};*/
+		
+		printGrid(grid);
+		int numIslands = findNumIslands(grid);
 		System.out.println("Number of islands : " + numIslands + "\n");
-		obj.printGrid(grid);
+		//printGrid(grid);
 	}
 	
-	public int findNumIslands(char[][] grid) {
+	private int findNumIslands(char[][] grid) {
 		if(grid == null || grid.length == 0)
 			return -1;
 		int islands = 0;
@@ -60,7 +59,7 @@ public class NumberOfIslands {
 		return islands;
 	}
 	
-	public int dfs(char[][] grid, int i, int j) {
+	private int dfs(char[][] grid, int i, int j) {
 		//printGrid(grid);
 		if(i < 0 || i >= grid.length || j < 0 || j >= grid[i].length || grid[i][j] == '0')
 			return 0;
@@ -72,7 +71,7 @@ public class NumberOfIslands {
 		return 1;
 	}
 	
-	public void printGrid(char[][] grid) {
+	private void printGrid(char[][] grid) {
 		for(int i = 0; i < grid.length; i++) {
 			for(int j = 0; j < grid[i].length; j++) {
 				System.out.print(grid[i][j] + "  ");

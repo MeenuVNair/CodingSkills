@@ -30,11 +30,9 @@ public class LetterCombinationOfPhoneNumber {
 	
 	static List<String> combinationList = new ArrayList<String>();
 
-	public static void main(String[] args) {
-		
-		LetterCombinationOfPhoneNumber obj = new LetterCombinationOfPhoneNumber();
+	public void findSolution() {
 		String input = "23";
-		obj.letterCombination(input);
+		letterCombination(input);
 		
 		System.out.println("combinations : ");
 		for(int i = 0; i < combinationList.size(); i++) {
@@ -42,7 +40,7 @@ public class LetterCombinationOfPhoneNumber {
 		}
 	}
 	
-	public void backtrack(String combination, String next_digits) {
+	private void backtrack(String combination, String next_digits) {
 		if(next_digits.length() == 0) {
 			combinationList.add(combination);
 		}
@@ -57,7 +55,7 @@ public class LetterCombinationOfPhoneNumber {
 	}
 
 	@SuppressWarnings("null")
-	public List<String> letterCombination(String digits){
+	private List<String> letterCombination(String digits){
 		if(digits != null || digits.length() != 0)
 			backtrack("", digits);
 		return combinationList;

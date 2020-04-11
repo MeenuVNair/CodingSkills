@@ -11,20 +11,20 @@ public class StackUsingLinkedList {
 		}
 	}
 	
-	public static void push(int value) {
+	private void push(int value) {
 		Node node = new Node(value);
 		node.next = top;
 		top = node;
 	}
 
-	public static void pop() {
+	private void pop() {
 		if(top == null)
 			return;
 		Node node = top;
 		top = node.next;
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		push(10);
 		print(top);
 		push(20);
@@ -35,7 +35,7 @@ public class StackUsingLinkedList {
 		print(top);
 	}
 	
-	public static void print(Node top) {
+	private void print(Node top) {
 		System.out.println("\nStack : ");
 		Node node = top;
 		while(node != null) {

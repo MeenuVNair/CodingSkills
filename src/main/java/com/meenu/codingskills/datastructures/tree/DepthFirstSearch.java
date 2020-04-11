@@ -13,7 +13,7 @@ public class DepthFirstSearch {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		/*Tree
 					   F
 					 /	\
@@ -46,7 +46,7 @@ public class DepthFirstSearch {
 		postOrderTraversal(root);
 	}
 	
-	public static void preOrderTraversal(Node root) {
+	private void preOrderTraversal(Node root) {
 		if(root == null)
 			return;
 		System.out.print(root.data + " ");
@@ -54,7 +54,7 @@ public class DepthFirstSearch {
 		preOrderTraversal(root.right);
 	}
 	
-	public static void inOrderTraversal(Node root) {
+	private void inOrderTraversal(Node root) {
 		if(root == null)
 			return;
 		inOrderTraversal(root.left);
@@ -62,7 +62,7 @@ public class DepthFirstSearch {
 		inOrderTraversal(root.right);
 	}
 	
-	public static void postOrderTraversal(Node root) {
+	private void postOrderTraversal(Node root) {
 		if(root == null)
 			return;
 		postOrderTraversal(root.left);
@@ -70,7 +70,7 @@ public class DepthFirstSearch {
 		System.out.print(root.data + " ");
 	}
 	
-	public static Node insert(Node root, char value) {
+	private Node insert(Node root, char value) {
 		if(root == null)
 			root = createNewNode(value);
 		else if(value <= root.data)
@@ -81,7 +81,7 @@ public class DepthFirstSearch {
 		return root;
 	}
 
-	public static Node createNewNode(char value) {
+	private Node createNewNode(char value) {
 		Node newNode = new Node(value);
 		newNode.left = null;
 		newNode.right = null;

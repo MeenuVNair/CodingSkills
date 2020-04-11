@@ -4,7 +4,7 @@ import com.meenu.codingskills.datastructures.tree.BinarySearchTree.Node;
 
 public class BSTOperations {
 
-	public static void main(String[] args) {
+	public void findSolution() {
 		Node rootPtr = null;
 		rootPtr = insert(rootPtr, 15);
 		rootPtr = insert(rootPtr, 10);
@@ -27,14 +27,14 @@ public class BSTOperations {
 		
 	}
 
-	public static Node createNewNode(int value) {
+	private Node createNewNode(int value) {
 		Node newNode = new Node(value);
 		newNode.left = null;
 		newNode.right = null;
 		return newNode;
 	}
 	
-	public static Node insert(Node rootPtr, int value) {
+	private Node insert(Node rootPtr, int value) {
 		if(rootPtr == null) {
 			rootPtr = createNewNode(value);
 		}
@@ -46,7 +46,7 @@ public class BSTOperations {
 		return rootPtr;
 	}
 	
-	public static boolean search(Node rootPtr, int value) {
+	private boolean search(Node rootPtr, int value) {
 		if(rootPtr == null)
 			return false;
 		if((int)rootPtr.data == value)
@@ -57,7 +57,7 @@ public class BSTOperations {
 			return search(rootPtr.right, value);
 	}
 	
-	public static void print(Node rootPtr) {
+	private void print(Node rootPtr) {
 		if(rootPtr == null)
 			return;
 		System.out.println(rootPtr.data);

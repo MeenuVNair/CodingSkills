@@ -4,7 +4,7 @@ import com.meenu.codingskills.datastructures.linkedlist.LinkedList.Node;
 
 public class LinkedListOperations {
 
-	public static LinkedList insertFirst(LinkedList list, int data) {
+	private LinkedList insertFirst(LinkedList list, int data) {
 		Node new_node = new Node(data);
 		new_node.next = null;
 		
@@ -18,7 +18,7 @@ public class LinkedListOperations {
 		return list;
 	}
 	
-	public static LinkedList insertLast(LinkedList list, int data) {
+	private LinkedList insertLast(LinkedList list, int data) {
 		Node new_node = new Node(data);
 		
 		//check if list is empty
@@ -35,7 +35,7 @@ public class LinkedListOperations {
 		return list;
 	}
 	
-	public static LinkedList insertAfterNode(LinkedList list, int old_data, int new_data) {
+	private LinkedList insertAfterNode(LinkedList list, int old_data, int new_data) {
 		Node new_node = new Node(new_data);
 		new_node.next = null;
 		
@@ -62,7 +62,7 @@ public class LinkedListOperations {
 		return list;
 	}
 	
-	public static LinkedList insertBeforeNode(LinkedList list, int old_data, int new_data) {
+	private LinkedList insertBeforeNode(LinkedList list, int old_data, int new_data) {
 		Node new_node = new Node(new_data);
 		new_node.next = null;
 		
@@ -94,7 +94,7 @@ public class LinkedListOperations {
 		return list;
 	}
 	
-	public static void printLinkedList(LinkedList list) {
+	private void printLinkedList(LinkedList list) {
 		Node current_node = list.head;
 		System.out.println("Linked List : ");
 		while(current_node != null) {
@@ -104,7 +104,7 @@ public class LinkedListOperations {
 		System.out.println("null");
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		LinkedList list = new LinkedList();
 		list = insertLast(list, 10);
 		list = insertLast(list, 20);

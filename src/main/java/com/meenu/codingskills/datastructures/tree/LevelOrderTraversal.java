@@ -17,7 +17,7 @@ public class LevelOrderTraversal {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		
 		/*Code To Test the logic
 		  Creating an example tree
@@ -39,7 +39,7 @@ public class LevelOrderTraversal {
 		levelOrderTraversal(root);
 	}
 	
-	public static void levelOrderTraversal(Node root) {
+	private void levelOrderTraversal(Node root) {
 		if(root == null)
 			return;
 		else {
@@ -56,7 +56,7 @@ public class LevelOrderTraversal {
 		}
 	}
 	
-	public static void enqueue(Node node) {
+	private void enqueue(Node node) {
 		if(isEmpty())
 			front = rear = 0;
 		else
@@ -64,13 +64,13 @@ public class LevelOrderTraversal {
 		queue[rear] = node;
 	}
 	
-	public static boolean isEmpty() {
+	private boolean isEmpty() {
 		if(front == -1 && rear == -1)
 			return true;
 		return false;
 	}
 	
-	public static Node front() {
+	private Node front() {
 		if(isEmpty()) {
 			System.err.println("Queue is empty");
 			return null;
@@ -78,7 +78,7 @@ public class LevelOrderTraversal {
 		return queue[front];	
 	}
 	
-	public static void dequeue() {
+	private void dequeue() {
 		if(front == rear) {
 			front = rear = -1;
 		}
@@ -86,7 +86,7 @@ public class LevelOrderTraversal {
 			front = front + 1;
 	}
 
-	public static Node insert(Node root, char value) {
+	private Node insert(Node root, char value) {
 		if(root == null)
 			root = createNewNode(value);
 		else if(value <= root.data)
@@ -97,7 +97,7 @@ public class LevelOrderTraversal {
 		return root;
 	}
 
-	public static Node createNewNode(char value) {
+	private Node createNewNode(char value) {
 		Node newNode = new Node(value);
 		newNode.left = null;
 		newNode.right = null;

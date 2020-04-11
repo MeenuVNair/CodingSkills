@@ -4,7 +4,7 @@ import com.meenu.codingskills.datastructures.tree.BinarySearchTree.Node;
 
 public class MinAndMaxInBST {
 
-	public static void main(String[] args) {
+	public void findSolution() {
 		Node root = null;
 		root = insert(root, 15);
 		root = insert(root, 10);
@@ -27,7 +27,7 @@ public class MinAndMaxInBST {
 		System.out.println("Max with recurssive approach : " + maxRecurssive);
 	}
 	
-	public static int findMinRecurssive(Node root) {
+	private int findMinRecurssive(Node root) {
 		if(root == null) {
 			System.err.println("Tree is empty");
 			return -1;
@@ -37,7 +37,7 @@ public class MinAndMaxInBST {
 		return findMinRecurssive(root.left);
 	}
 	
-	public static int findMaxRecurssive(Node root) {
+	private int findMaxRecurssive(Node root) {
 		if(root == null) {
 			System.err.println("Tree is empty");
 			return -1;
@@ -47,7 +47,7 @@ public class MinAndMaxInBST {
 		return findMaxRecurssive(root.right);
 	}
 	
-	public static int findMinElement(Node root) {
+	private int findMinElement(Node root) {
 		if(root == null) {
 			System.err.println("Tree is empty");
 			return -1;
@@ -58,7 +58,7 @@ public class MinAndMaxInBST {
 		return root.data;
 	}
 	
-	public static int findMaxElement(Node root) {
+	private int findMaxElement(Node root) {
 		if(root == null) {
 			System.err.println("Tree is empty");
 			return -1;
@@ -69,7 +69,7 @@ public class MinAndMaxInBST {
 		return root.data;
 	}
 	
-	public static Node insert(Node root, int value) {
+	private Node insert(Node root, int value) {
 		if(root == null)
 			root = createNewNode(value);
 		else if(value <= root.data)
@@ -80,7 +80,7 @@ public class MinAndMaxInBST {
 		return root;
 	}
 
-	public static Node createNewNode(int value) {
+	private Node createNewNode(int value) {
 		Node newNode = new Node(value);
 		newNode.left = null;
 		newNode.right = null;

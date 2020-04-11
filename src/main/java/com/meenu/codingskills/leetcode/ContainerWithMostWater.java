@@ -8,22 +8,8 @@ Note: You may not slant the container and n is at least 2.
 
 public class ContainerWithMostWater {
 
-	public static void main(String[] args) {
-		
-		ContainerWithMostWater obj = new ContainerWithMostWater();
-		 int a[] = {1, 5, 4, 3}; 
-	     int b[] = {3, 1, 2, 4, 5}; 
-	    
-	     int maxArea = obj.maxArea(a);
-	     System.out.println("Max area : " + maxArea);
-	     
-	     maxArea = obj.maxAreaSecondApproach(b);
-	     System.out.println("Max area : " + maxArea);
-	     
-	}
-
 	// first approach
-	public int maxArea(int[] height) {
+	private int maxArea(int[] height) {
 		int max = Integer.MIN_VALUE;
 		for(int i = 0; i < height.length; i++) {
 			for(int j = i + 1; j < height.length; j++) {
@@ -35,7 +21,7 @@ public class ContainerWithMostWater {
 	}
 	
 	//second approach
-	public int maxAreaSecondApproach(int[] height) {
+	private int maxAreaSecondApproach(int[] height) {
 		int l = 0;
 		int r = height.length - 1;
 		int max = Integer.MIN_VALUE;
@@ -48,5 +34,16 @@ public class ContainerWithMostWater {
 				r--;
 		}
 		return max;
+	}
+	
+	public void findSolution() {
+		 int a[] = {1, 5, 4, 3}; 
+	     int b[] = {3, 1, 2, 4, 5}; 
+	    
+	     int maxArea = maxArea(a);
+	     System.out.println("Max area : " + maxArea);
+	     
+	     maxArea = maxAreaSecondApproach(b);
+	     System.out.println("Max area : " + maxArea);
 	}
 }

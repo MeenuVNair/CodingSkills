@@ -12,7 +12,7 @@ public class EvaluationOfExpression {
 			while popping, first element popped will be first operand and second element will be second operand	
 	*/
 
-	public static void main(String[] args) {
+	public void findSolution() {
 		// postfix evaluation
 		String posExpression[] = new String[]{"2","3","*","5","4","*","+","9","-"};
 		int pos_output = 0;
@@ -48,7 +48,7 @@ public class EvaluationOfExpression {
 		System.out.println("Prefix Output : " + pre_output);
 	}
 	
-	public static int performOperation(int first, int second, String operation) {
+	private int performOperation(int first, int second, String operation) {
 		int output = 0;
 		if(operation.equals("+")) {
 			output = first + second;
@@ -65,16 +65,16 @@ public class EvaluationOfExpression {
 		return output;
 	}
 
-	public static void push(String value) {
+	private void push(String value) {
 		stack[++top] = value;
 		//printStack();
 	}
 	
-	public static String pop() {
+	private String pop() {
 		return stack[top--];
 	}
 	
-	public static void printStack() {
+	private void printStack() {
 		System.out.println(" -------------------------------");
 		for(int i = 0; i <= top; i++) {
 			System.out.print(" |  " + stack[i]);

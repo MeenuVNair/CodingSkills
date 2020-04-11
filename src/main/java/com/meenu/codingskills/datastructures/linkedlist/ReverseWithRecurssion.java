@@ -4,7 +4,7 @@ import com.meenu.codingskills.datastructures.linkedlist.LinkedList.Node;
 
 public class ReverseWithRecurssion {
 	static LinkedList list;
-	public static void main(String[] args) {
+	public void findSolution() {
 		list = new LinkedList();
 		list = insert(list, 10);
 		list = insert(list, 20);
@@ -22,7 +22,7 @@ public class ReverseWithRecurssion {
 		System.out.println("null");
 	}
 	
-	public static LinkedList insert(LinkedList list, int data) {
+	private LinkedList insert(LinkedList list, int data) {
 		Node new_node = new Node(data);
 		
 		//check if list is empty
@@ -39,7 +39,7 @@ public class ReverseWithRecurssion {
 		return list;
 	}
 	
-	public static void printLinkedList(Node node) {
+	private void printLinkedList(Node node) {
 		if(node == null) {
 			return;
 		}
@@ -47,7 +47,7 @@ public class ReverseWithRecurssion {
 		printLinkedList(node.next);
 	}
 	
-	public static void reverse(Node node) {
+	private void reverse(Node node) {
 		if(node.next == null) {
 			list.head = node;
 			return;

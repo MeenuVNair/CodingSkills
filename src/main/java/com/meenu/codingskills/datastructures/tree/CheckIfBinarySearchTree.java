@@ -15,7 +15,7 @@ public class CheckIfBinarySearchTree {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		Node root = null;
 		root = insert(root, 15);
 		root = insert(root, 10);
@@ -27,11 +27,11 @@ public class CheckIfBinarySearchTree {
 		System.out.println("Is binary search tree ? : " + isBinarySearchTree(root));
 	}
 	
-	public static boolean isBinarySearchTree(Node root) {
+	private boolean isBinarySearchTree(Node root) {
 		return isBinarySearchTreeUtil(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
 	}
 	
-	public static boolean isBinarySearchTreeUtil(Node root, int minValue, int maxValue) {
+	private boolean isBinarySearchTreeUtil(Node root, int minValue, int maxValue) {
 		if(root == null)
 			return true;
 		if(root.data > minValue && root.data < maxValue 
@@ -42,14 +42,14 @@ public class CheckIfBinarySearchTree {
 			return false;
 	}
 
-	public static Node createNewNode(int value) {
+	private Node createNewNode(int value) {
 		Node newNode = new Node(value);
 		newNode.left = null;
 		newNode.right = null;
 		return newNode;
 	}
 	
-	public static Node insert(Node rootPtr, int value) {
+	private Node insert(Node rootPtr, int value) {
 		if(rootPtr == null) {
 			rootPtr = createNewNode(value);
 		}

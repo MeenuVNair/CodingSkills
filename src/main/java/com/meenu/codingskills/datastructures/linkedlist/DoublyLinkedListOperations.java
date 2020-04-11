@@ -4,7 +4,7 @@ import com.meenu.codingskills.datastructures.linkedlist.DoublyLinkedList.Node;
 
 public class DoublyLinkedListOperations {
 
-	public static void main(String[] args) {
+	public void findSolution() {
 		Node head = null;
 		head = insert(head, 10);
 		head = insert(head, 20);
@@ -27,11 +27,9 @@ public class DoublyLinkedListOperations {
 		System.out.print("null --> ");
 		printLinkedList(head);
 		System.out.print("null\n");
-		
-		
 	}
 	
-	public static Node insertBeforeGivenNode(Node node, int oldValue, int newValue) {
+	private static Node insertBeforeGivenNode(Node node, int oldValue, int newValue) {
 		Node head = node;
 		Node newNode = new Node(newValue);
 		newNode.next = null;
@@ -65,7 +63,7 @@ public class DoublyLinkedListOperations {
 		return head;
 	}
 	
-	public static Node insertAfterGivenNode(Node node, int oldValue, int newValue) {
+	private static Node insertAfterGivenNode(Node node, int oldValue, int newValue) {
 		Node head = node;
 		Node newNode = new Node(newValue);
 		newNode.prev = null;
@@ -95,7 +93,7 @@ public class DoublyLinkedListOperations {
 		return head;
 	}
 
-	public static Node insert(Node node, int value) {
+	private static Node insert(Node node, int value) {
 		
 		Node head = node;
 		Node newNode = new Node(value);
@@ -118,7 +116,7 @@ public class DoublyLinkedListOperations {
 		return head;
 	}
 	
-	public static void printLinkedList(Node node) {
+	private static void printLinkedList(Node node) {
 		while(node != null) {
 			System.out.print(node.data + " -- > ");
 			node = node.next;

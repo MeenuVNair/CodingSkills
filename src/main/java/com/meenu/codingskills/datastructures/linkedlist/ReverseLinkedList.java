@@ -4,7 +4,7 @@ import com.meenu.codingskills.datastructures.linkedlist.LinkedList.Node;
 
 public class ReverseLinkedList {
 	
-	public static LinkedList insert(LinkedList list, int data) {
+	private LinkedList insert(LinkedList list, int data) {
 		Node new_node = new Node(data);
 		
 		//check if list is empty
@@ -21,7 +21,7 @@ public class ReverseLinkedList {
 		return list;
 	}
 
-	public static void printLinkedList(LinkedList list) {
+	private void printLinkedList(LinkedList list) {
 		Node current_node = list.head;
 		while(current_node != null) {
 			System.out.print(current_node.data + " --> ");
@@ -30,7 +30,7 @@ public class ReverseLinkedList {
 		System.out.println("null");
 	}
 	
-	public static LinkedList reverse(LinkedList list) {
+	private LinkedList reverse(LinkedList list) {
 		Node current_node, prev_node, next_node;
 		current_node = list.head;
 		prev_node = null;  next_node = null;
@@ -46,7 +46,7 @@ public class ReverseLinkedList {
 		return list;
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		LinkedList list = new LinkedList();
 		list = insert(list, 10);
 		list = insert(list, 20);

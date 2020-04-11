@@ -6,7 +6,7 @@ public class StackUsingArray {
 	static int stack[] = new int[MAX_SIZE];
 	static int top = -1;
 	
-	public static void push(int value) {
+	private void push(int value) {
 		if(top == MAX_SIZE - 1) {
 			System.err.println("Stack overload");
 			return;
@@ -14,22 +14,22 @@ public class StackUsingArray {
 		stack[++top] = value;
 	}
 	
-	public static void pop() {
+	private void pop() {
 		top--;
 	}
 	
-	public static int top() {
+	private int top() {
 		return(stack[top]);
 	}
 	
-	public static boolean isEmpty() {
+	private boolean isEmpty() {
 		if(top == -1)
 			return true;
 		else
 			return false;
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 
 		push(10);
 		printStack();
@@ -46,7 +46,7 @@ public class StackUsingArray {
 		System.out.println("isEmpty : " + isEmpty());
 	}
 	
-	public static void printStack() {
+	private void printStack() {
 		System.out.println("\nStack : \n");
 		
 		System.out.println(" -------------------------------");

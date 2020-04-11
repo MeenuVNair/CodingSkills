@@ -13,24 +13,24 @@ Note: There will be exactly one celebrity if he/she is in the party. Return the 
 public class FindTheCelebrity {
 
 	static int list[][];
-	public static void main(String[] args) {
-		FindTheCelebrity obj = new FindTheCelebrity();
+	
+	public void findSolution() {
 		list = new int[][] { { 0, 0, 1, 0 }, 
-			                { 0, 0, 1, 0 }, 
-			                { 0, 0, 0, 0 },  
-			                { 0, 0, 1, 0 } }; 
-		int celebrityId = obj.findCelebrity(list.length);
-		System.out.println("Celebrity id : " + celebrityId);
+				            { 0, 0, 1, 0 }, 
+				            { 0, 0, 0, 0 },  
+				            { 0, 0, 1, 0 } }; 
+        int celebrityId = findCelebrity(list.length);
+        System.out.println("Celebrity id : " + celebrityId);
 	}
 
-	public boolean knows(int a, int b) {
+	private boolean knows(int a, int b) {
 		if(list[a][b] == 1)
 			return true;
 		else
 			return false;
 	}
 	
-	public int findCelebrity(int n) {
+	private int findCelebrity(int n) {
 		int celebrity = 0;
 		for(int i = 0; i < n; i ++) {
 			if(knows(celebrity, i))

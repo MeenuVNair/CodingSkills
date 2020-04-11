@@ -13,7 +13,7 @@ public class DeleteNodeFromBST {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		Node root = null;
 		root = insert(root, 12);
 		root = insert(root, 5);
@@ -30,7 +30,7 @@ public class DeleteNodeFromBST {
 		inorder(root);
 	}
 	
-	public static Node delete(Node root, int value) {
+	private Node delete(Node root, int value) {
 		if(root == null)
 			return root;
 		else if(value < root.data)
@@ -56,20 +56,20 @@ public class DeleteNodeFromBST {
 		return root;
 	}
 	
-	public static Node findMin(Node root) {
+	private Node findMin(Node root) {
 		if(root.left == null)
 			return root;
 		return findMin(root.left);
 	}
 	
-	public static Node createNewNode(int value) {
+	private Node createNewNode(int value) {
 		Node newNode = new Node(value);
 		newNode.left = null;
 		newNode.right = null;
 		return newNode;
 	}
 	
-	public static Node insert(Node rootPtr, int value) {
+	private Node insert(Node rootPtr, int value) {
 		if(rootPtr == null) {
 			rootPtr = createNewNode(value);
 		}
@@ -82,7 +82,7 @@ public class DeleteNodeFromBST {
 	}
 	
 	//Function to visit nodes in Inorder
-	public static void inorder(Node root) {
+	private void inorder(Node root) {
 		if(root == null) return;
 	 
 		inorder(root.left);       //Visit left subtree

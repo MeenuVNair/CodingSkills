@@ -6,7 +6,7 @@ public class QueueUsingArray {
 	static int front = -1;
 	static int rear = -1;
 
-	public static void main(String[] args) {
+	public void findSolution() {
 		enqueue(1);
 		enqueue(2);
 		enqueue(3);
@@ -22,7 +22,7 @@ public class QueueUsingArray {
 		enqueue(9);
 	}
 	
-	public static void enqueue(int value) {
+	private void enqueue(int value) {
 		if(isEmpty()) {
 			front = 0;
 			rear = 0;
@@ -38,7 +38,7 @@ public class QueueUsingArray {
 		printQueue();
 	}
 	
-	public static void dequeue() {
+	private void dequeue() {
 		if(isEmpty()) {
 			System.err.println("Queue Empty");
 			return;
@@ -53,7 +53,7 @@ public class QueueUsingArray {
 		printQueue();
 	}
 	
-	public static Object front() {
+	private Object front() {
 		if(isEmpty()) {
 			System.err.println("Queue Empty");
 			return null;
@@ -63,21 +63,21 @@ public class QueueUsingArray {
 		
 	}
 	
-	public static boolean isEmpty() {
+	private boolean isEmpty() {
 		if(front == -1 && rear == -1)
 			return true;
 		else
 			return false;
 	}
 	
-	public static boolean isFull() {
+	private boolean isFull() {
 		if(rear == MAX_SIZE - 1)
 			return true;
 		else
 			return false;
 	}
 	
-	public static void printQueue() {
+	private void printQueue() {
 		System.out.println("Queue : ");
 		if(!isEmpty()) {
 			for(int i = front ; i <= rear ; i++) {

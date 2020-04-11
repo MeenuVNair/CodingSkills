@@ -4,7 +4,7 @@ import com.meenu.codingskills.datastructures.tree.BinarySearchTree.Node;
 
 public class HeightOfBinaryTree {
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		Node root = null;
 		root = insert(root, 15);
 		root = insert(root, 10);
@@ -20,7 +20,7 @@ public class HeightOfBinaryTree {
 		System.out.println("Height of the tree : " + findHeight(root));
 	}
 	
-	public static int findHeight(Node root) {
+	private int findHeight(Node root) {
 		if(root == null)
 			return -1;
 		int leftHeight = findHeight(root.left);
@@ -29,7 +29,7 @@ public class HeightOfBinaryTree {
 		return Math.max(leftHeight, rightHeight) + 1;
 	}
 
-	public static Node insert(Node root, int value) {
+	private Node insert(Node root, int value) {
 		if(root == null)
 			root = createNewNode(value);
 		else if(value <= root.data)
@@ -40,7 +40,7 @@ public class HeightOfBinaryTree {
 		return root;
 	}
 
-	public static Node createNewNode(int value) {
+	private Node createNewNode(int value) {
 		Node newNode = new Node(value);
 		newNode.left = null;
 		newNode.right = null;

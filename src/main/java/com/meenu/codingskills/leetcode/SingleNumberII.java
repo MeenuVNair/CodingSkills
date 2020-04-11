@@ -21,18 +21,16 @@ Output: 99
 public class SingleNumberII {
 	Map<Integer,Integer> map;
 
-	public static void main(String[] args) {
-		SingleNumberII obj = new SingleNumberII();
+	public void findSolution() {
 		int array[] = new int[] {0,1,0,1,0,1,99}; // {2,2,3,2}; 
-		obj.map = new HashMap<Integer,Integer>();
-		int singleNumber = obj.findSingleNumber(array);
+		map = new HashMap<Integer,Integer>();
+		int singleNumber = findSingleNumber(array);
 		if(singleNumber == -1)
 			System.out.println("No single number found");
 		else
 			System.out.println("Single number : " + singleNumber);
 	}
-
-	public int findSingleNumber(int[] array) {
+	private int findSingleNumber(int[] array) {
 		for(int i = 0; i < array.length; i++) {
 			if(map.containsKey(array[i]))
 				map.put(array[i], map.get(array[i]) + 1);

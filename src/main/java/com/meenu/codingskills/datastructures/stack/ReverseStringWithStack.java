@@ -6,7 +6,7 @@ public class ReverseStringWithStack {
 	static char arr[] = new char[MAX_SIZE];
 	static int top = -1;
 	
-	public static void main(String[] args) {
+	public void findSolution() {
 		String input = "Hello";
 		/*Scanner input = new Scanner(System.in);
 		while(input.hasNext()) {
@@ -27,7 +27,7 @@ public class ReverseStringWithStack {
 		
 	}
 	
-	public static void push(char value) {
+	private void push(char value) {
 		if(top == MAX_SIZE - 1) {
 			System.err.println("Stack overflow");
 			return;
@@ -35,7 +35,7 @@ public class ReverseStringWithStack {
 		arr[++top] = value;
 	}
 	
-	public static void pop() {
+	private void pop() {
 		if(top == -1) {
 			System.err.println("Stack empty");
 			return;
@@ -43,14 +43,14 @@ public class ReverseStringWithStack {
 		top--;
 	}
 	
-	public static char top() {
+	private char top() {
 		if(top == -1) {
 			System.err.println("Stack empty");
 		}
 		return arr[top--];
 	}
 	
-	public static void print() {
+	private void print() {
 		for(int i = 0; i <= top; i++) {
 			System.out.print(arr[i]);
 		}

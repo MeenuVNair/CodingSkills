@@ -21,16 +21,15 @@ Note: Your solution should be in logarithmic complexity.
 
 public class FindPeekElement {
 
-	public static void main(String[] args) {
-		FindPeekElement obj = new FindPeekElement();
+	public void findSolution() {
 		int nums[] = new int[] {1,2,1,3,5,6,4}; //{1,2,3,1};
-		obj.printArray(nums);
+		printArray(nums);
 		
-		int peekElement = obj.findPeekElement(nums);
+		int peekElement = findPeekElement(nums);
 		System.out.println("\nIndex of peek element : " + peekElement);
 	}
 	
-	public int findPeekElement(int[] nums) {
+	private int findPeekElement(int[] nums) {
 		int left = 0;
 		int right = nums.length - 1;
 		while(left < right) {
@@ -43,7 +42,7 @@ public class FindPeekElement {
 		return left;
 	}
 
-	public void printArray(int[] nums) {
+	private void printArray(int[] nums) {
 		for(int i = 0; i < nums.length; i++) {
 			System.out.print(nums[i] + " ");
 		}
