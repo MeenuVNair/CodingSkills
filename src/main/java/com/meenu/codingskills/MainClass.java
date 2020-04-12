@@ -149,8 +149,8 @@ public class MainClass {
 //		obj.findSolution();
 
 //-----------------------------TestHeap----------------------------------------------------------------
-		TestHeap obj = new TestHeap();
-		obj.findSolution();
+//		TestHeap obj = new TestHeap();
+//		obj.findSolution();
 
 
 	}
