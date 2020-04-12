@@ -24,11 +24,16 @@ import com.meenu.codingskills.datastructures.tree.LevelOrderTraversal;
 import com.meenu.codingskills.datastructures.tree.MinAndMaxInBST;
 import com.meenu.codingskills.datastructures.tree.TestHeap;
 import com.meenu.codingskills.leetcode.BattleshipsInABoard;
+import com.meenu.codingskills.leetcode.BinaryTreeLevelOrderTraversal;
 import com.meenu.codingskills.leetcode.ContainerWithMostWater;
+import com.meenu.codingskills.leetcode.DecodeWays;
 import com.meenu.codingskills.leetcode.FindPeekElement;
 import com.meenu.codingskills.leetcode.FindTheCelebrity;
+import com.meenu.codingskills.leetcode.FruitIntoBasket;
+import com.meenu.codingskills.leetcode.KeysAndRooms;
 import com.meenu.codingskills.leetcode.KthLargestElement;
 import com.meenu.codingskills.leetcode.LetterCombinationOfPhoneNumber;
+import com.meenu.codingskills.leetcode.MeetingRoomsII;
 import com.meenu.codingskills.leetcode.NumberOfIslands;
 import com.meenu.codingskills.leetcode.SingleNumberII;
 
@@ -162,6 +167,26 @@ public class MainClass {
 //		BattleshipsInABoard obj = new BattleshipsInABoard();
 //		obj.findSolution();
 
+//-----------------------------FruitIntoBasket----------------------------------------------------------------
+//		FruitIntoBasket obj = new FruitIntoBasket();
+//		obj.findSolution();
 
+//-----------------------------KeysAndRooms----------------------------------------------------------------
+//		KeysAndRooms obj = new KeysAndRooms();
+//		obj.findSolution();
+
+//-----------------------------BinaryTreeLevelOrderTraversal----------------------------------------------------------------
+//		BinaryTreeLevelOrderTraversal obj = new BinaryTreeLevelOrderTraversal();
+//		obj.findSolution();
+
+//-----------------------------MeetingRoomsII----------------------------------------------------------------
+//		MeetingRoomsII obj = new MeetingRoomsII();
+//		obj.findSolution();
+
+//-----------------------------DecodeWays----------------------------------------------------------------
+//		DecodeWays obj = new DecodeWays();
+//		obj.findSolution();
+
+		
 	}
 }
