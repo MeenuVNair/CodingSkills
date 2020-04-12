@@ -22,6 +22,7 @@ import com.meenu.codingskills.datastructures.tree.HeightOfBinaryTree;
 import com.meenu.codingskills.datastructures.tree.InorderSuccessor;
 import com.meenu.codingskills.datastructures.tree.LevelOrderTraversal;
 import com.meenu.codingskills.datastructures.tree.MinAndMaxInBST;
+import com.meenu.codingskills.datastructures.tree.TestHeap;
 import com.meenu.codingskills.leetcode.ContainerWithMostWater;
 import com.meenu.codingskills.leetcode.FindPeekElement;
 import com.meenu.codingskills.leetcode.FindTheCelebrity;
@@ -144,7 +145,11 @@ public class MainClass {
 //		obj.findSolution();
 
 //-----------------------------MinAndMaxInBST----------------------------------------------------------------
-		MinAndMaxInBST obj = new MinAndMaxInBST();
+//		MinAndMaxInBST obj = new MinAndMaxInBST();
+//		obj.findSolution();
+
+//-----------------------------TestHeap----------------------------------------------------------------
+		TestHeap obj = new TestHeap();
 		obj.findSolution();
 
 
