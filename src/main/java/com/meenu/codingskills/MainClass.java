@@ -23,9 +23,11 @@ import com.meenu.codingskills.datastructures.tree.InorderSuccessor;
 import com.meenu.codingskills.datastructures.tree.LevelOrderTraversal;
 import com.meenu.codingskills.datastructures.tree.MinAndMaxInBST;
 import com.meenu.codingskills.datastructures.tree.TestHeap;
+import com.meenu.codingskills.leetcode.BattleshipsInABoard;
 import com.meenu.codingskills.leetcode.ContainerWithMostWater;
 import com.meenu.codingskills.leetcode.FindPeekElement;
 import com.meenu.codingskills.leetcode.FindTheCelebrity;
+import com.meenu.codingskills.leetcode.KthLargestElement;
 import com.meenu.codingskills.leetcode.LetterCombinationOfPhoneNumber;
 import com.meenu.codingskills.leetcode.NumberOfIslands;
 import com.meenu.codingskills.leetcode.SingleNumberII;
@@ -150,6 +152,14 @@ public class MainClass {
 
 //-----------------------------TestHeap----------------------------------------------------------------
 //		TestHeap obj = new TestHeap();
+//		obj.findSolution();
+
+//-----------------------------KthLargestElement----------------------------------------------------------------
+//		KthLargestElement obj = new KthLargestElement();
+//		obj.findSolution();
+
+//-----------------------------BattleshipsInABoard----------------------------------------------------------------
+//		BattleshipsInABoard obj = new BattleshipsInABoard();
 //		obj.findSolution();
 
 

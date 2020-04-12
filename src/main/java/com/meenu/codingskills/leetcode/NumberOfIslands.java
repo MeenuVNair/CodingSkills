@@ -37,8 +37,8 @@ public class NumberOfIslands {
 			{'1','1','0','1','0'},
 			{'1','1','0','0','0'},
 			{'0','0','0','0','0'}
-		};*/
-		
+		};
+		*/
 		printGrid(grid);
 		int numIslands = findNumIslands(grid);
 		System.out.println("Number of islands : " + numIslands + "\n");
