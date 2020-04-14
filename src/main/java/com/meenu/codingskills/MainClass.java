@@ -25,17 +25,27 @@ import com.meenu.codingskills.datastructures.tree.MinAndMaxInBST;
 import com.meenu.codingskills.datastructures.tree.TestHeap;
 import com.meenu.codingskills.leetcode.BattleshipsInABoard;
 import com.meenu.codingskills.leetcode.BinaryTreeLevelOrderTraversal;
+import com.meenu.codingskills.leetcode.BoatsToSavePeople;
+import com.meenu.codingskills.leetcode.CombinationSumII;
 import com.meenu.codingskills.leetcode.ContainerWithMostWater;
 import com.meenu.codingskills.leetcode.DecodeWays;
 import com.meenu.codingskills.leetcode.FindPeekElement;
 import com.meenu.codingskills.leetcode.FindTheCelebrity;
 import com.meenu.codingskills.leetcode.FruitIntoBasket;
+import com.meenu.codingskills.leetcode.GroupedAnagrams;
 import com.meenu.codingskills.leetcode.KeysAndRooms;
 import com.meenu.codingskills.leetcode.KthLargestElement;
 import com.meenu.codingskills.leetcode.LetterCombinationOfPhoneNumber;
+import com.meenu.codingskills.leetcode.MaxAreaOfIsland;
 import com.meenu.codingskills.leetcode.MeetingRoomsII;
+import com.meenu.codingskills.leetcode.NextClosestTime;
 import com.meenu.codingskills.leetcode.NumberOfIslands;
+import com.meenu.codingskills.leetcode.PathSumsII;
 import com.meenu.codingskills.leetcode.SingleNumberII;
+import com.meenu.codingskills.leetcode.SortCharacterByFrequency;
+import com.meenu.codingskills.leetcode.UniquePaths;
+import com.meenu.codingskills.leetcode.WallsAndGates;
+import com.meenu.codingskills.leetcode.WordSearch;
 
 public class MainClass {
 
@@ -186,6 +196,48 @@ public class MainClass {
 //-----------------------------DecodeWays----------------------------------------------------------------
 //		DecodeWays obj = new DecodeWays();
 //		obj.findSolution();
+
+//-----------------------------MaxAreaOfIsland----------------------------------------------------------------
+//		MaxAreaOfIsland obj = new MaxAreaOfIsland();
+//		obj.findSolution();
+
+//-----------------------------SortCharacterByFrequency----------------------------------------------------------------
+//		SortCharacterByFrequency obj = new SortCharacterByFrequency();
+//		obj.findSolution();
+
+//-----------------------------NextClosestTime----------------------------------------------------------------
+//		NextClosestTime obj = new NextClosestTime();
+//		obj.findSolution();
+
+
+//-----------------------------GroupedAnagrams----------------------------------------------------------------
+//		GroupedAnagrams obj = new GroupedAnagrams();
+//		obj.findSolution();
+
+//-----------------------------UniquePaths----------------------------------------------------------------
+//		UniquePaths obj = new UniquePaths();
+//		obj.findSolution();
+
+//-----------------------------PathSumsII----------------------------------------------------------------
+//		PathSumsII obj = new PathSumsII();
+//		obj.findSolution();
+		
+//-----------------------------BoatsToSavePeople----------------------------------------------------------------
+//		BoatsToSavePeople obj = new BoatsToSavePeople();
+//		obj.findSolution();
+
+//-----------------------------WallsAndGates----------------------------------------------------------------
+//		WallsAndGates obj = new WallsAndGates();
+//		obj.findSolution();
+
+		
+//-----------------------------CombinationSumII----------------------------------------------------------------
+//		CombinationSumII obj = new CombinationSumII();
+//		obj.findSolution();
+
+//-----------------------------WordSearch----------------------------------------------------------------
+		WordSearch obj = new WordSearch();
+		obj.findSolution();
 
 		
 	}

@@ -56,6 +56,8 @@ public class LetterCombinationOfPhoneNumber {
 
 	@SuppressWarnings("null")
 	private List<String> letterCombination(String digits){
+		if(digits.equals(""))
+			return combinationList;
 		if(digits != null || digits.length() != 0)
 			backtrack("", digits);
 		return combinationList;
