@@ -1,51 +1,10 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.datastructures.linkedlist.DoublyLinkedListOperations;
-import com.meenu.codingskills.datastructures.linkedlist.LinkedListOperations;
-import com.meenu.codingskills.datastructures.linkedlist.ReverseLinkedList;
-import com.meenu.codingskills.datastructures.linkedlist.ReverseWithRecurssion;
-import com.meenu.codingskills.datastructures.linkedlist.StringReversal;
-import com.meenu.codingskills.datastructures.queue.CircularQueue;
-import com.meenu.codingskills.datastructures.queue.QueueUsingArray;
-import com.meenu.codingskills.datastructures.queue.QueueUsingLinkedList;
-import com.meenu.codingskills.datastructures.stack.BalancedParanthesis;
-import com.meenu.codingskills.datastructures.stack.EvaluationOfExpression;
-import com.meenu.codingskills.datastructures.stack.InfixToPostfix;
-import com.meenu.codingskills.datastructures.stack.ReverseStringWithStack;
-import com.meenu.codingskills.datastructures.stack.StackUsingArray;
-import com.meenu.codingskills.datastructures.stack.StackUsingLinkedList;
-import com.meenu.codingskills.datastructures.tree.BSTOperations;
-import com.meenu.codingskills.datastructures.tree.CheckIfBinarySearchTree;
-import com.meenu.codingskills.datastructures.tree.DeleteNodeFromBST;
-import com.meenu.codingskills.datastructures.tree.DepthFirstSearch;
-import com.meenu.codingskills.datastructures.tree.HeightOfBinaryTree;
-import com.meenu.codingskills.datastructures.tree.InorderSuccessor;
-import com.meenu.codingskills.datastructures.tree.LevelOrderTraversal;
-import com.meenu.codingskills.datastructures.tree.MinAndMaxInBST;
-import com.meenu.codingskills.datastructures.tree.TestHeap;
-import com.meenu.codingskills.leetcode.BattleshipsInABoard;
-import com.meenu.codingskills.leetcode.BinaryTreeLevelOrderTraversal;
-import com.meenu.codingskills.leetcode.BoatsToSavePeople;
-import com.meenu.codingskills.leetcode.CombinationSumII;
-import com.meenu.codingskills.leetcode.ContainerWithMostWater;
-import com.meenu.codingskills.leetcode.DecodeWays;
-import com.meenu.codingskills.leetcode.FindPeekElement;
-import com.meenu.codingskills.leetcode.FindTheCelebrity;
-import com.meenu.codingskills.leetcode.FruitIntoBasket;
-import com.meenu.codingskills.leetcode.GroupedAnagrams;
-import com.meenu.codingskills.leetcode.KeysAndRooms;
-import com.meenu.codingskills.leetcode.KthLargestElement;
-import com.meenu.codingskills.leetcode.LetterCombinationOfPhoneNumber;
-import com.meenu.codingskills.leetcode.MaxAreaOfIsland;
-import com.meenu.codingskills.leetcode.MeetingRoomsII;
-import com.meenu.codingskills.leetcode.NextClosestTime;
-import com.meenu.codingskills.leetcode.NumberOfIslands;
-import com.meenu.codingskills.leetcode.PathSumsII;
-import com.meenu.codingskills.leetcode.SingleNumberII;
-import com.meenu.codingskills.leetcode.SortCharacterByFrequency;
-import com.meenu.codingskills.leetcode.UniquePaths;
-import com.meenu.codingskills.leetcode.WallsAndGates;
-import com.meenu.codingskills.leetcode.WordSearch;
+import com.meenu.codingskills.leetcode.CountPrimes;
+import com.meenu.codingskills.leetcode.HappyNumber;
+import com.meenu.codingskills.leetcode.MaximumDepthOfBinaryTree;
+import com.meenu.codingskills.leetcode.SortArrayByParity;
+import com.meenu.codingskills.leetcode.SymmetricTree;
 
 public class MainClass {
 
@@ -229,15 +188,62 @@ public class MainClass {
 //-----------------------------WallsAndGates----------------------------------------------------------------
 //		WallsAndGates obj = new WallsAndGates();
 //		obj.findSolution();
-
-		
+	
 //-----------------------------CombinationSumII----------------------------------------------------------------
 //		CombinationSumII obj = new CombinationSumII();
 //		obj.findSolution();
 
 //-----------------------------WordSearch----------------------------------------------------------------
-		WordSearch obj = new WordSearch();
-		obj.findSolution();
+//		WordSearch obj = new WordSearch();
+//		obj.findSolution();
+
+//-----------------------------Subsets----------------------------------------------------------------
+//		Subsets obj = new Subsets();
+//		obj.findSolution();
+
+//-----------------------------PartitionEqualSubsetSum----------------------------------------------------------------
+//		PartitionEqualSubsetSum obj = new PartitionEqualSubsetSum();
+//		obj.findSolution();
+
+//-----------------------------PartitionToKEqualSumSubsets----------------------------------------------------------------
+//		PartitionToKEqualSumSubsets obj = new PartitionToKEqualSumSubsets();
+//		obj.findSolution();
+
+//-----------------------------KthSmallestElementInBST----------------------------------------------------------------
+//		KthSmallestElementInBST obj = new KthSmallestElementInBST();
+//		obj.findSolution();
+
+//-----------------------------BinaryTreeRightSideView----------------------------------------------------------------
+//		BinaryTreeRightSideView obj = new BinaryTreeRightSideView();
+//		obj.findSolution();
+
+//-----------------------------MinimumPathSum----------------------------------------------------------------
+//		MinimumPathSum obj = new MinimumPathSum();
+//		obj.findSolution();
+
+//-----------------------------RepeatedDNASequences----------------------------------------------------------------
+//		RepeatedDNASequences obj = new RepeatedDNASequences();
+//		obj.findSolution();
+		
+//-----------------------------CountPrimes----------------------------------------------------------------
+//		CountPrimes obj = new CountPrimes();
+//		obj.findSolution();
+
+//-----------------------------SortArrayByParity----------------------------------------------------------------
+//		SortArrayByParity obj = new SortArrayByParity();
+//		obj.findSolution();
+
+//-----------------------------HappyNumber----------------------------------------------------------------
+//		HappyNumber obj = new HappyNumber();
+//		obj.findSolution();
+
+//-----------------------------SymmetricTree----------------------------------------------------------------
+//		SymmetricTree obj = new SymmetricTree();
+//		obj.findSolution();
+
+//-----------------------------MaximumDepthOfBinaryTree----------------------------------------------------------------
+//		MaximumDepthOfBinaryTree obj = new MaximumDepthOfBinaryTree();
+//		obj.findSolution();
 
 		
 	}
