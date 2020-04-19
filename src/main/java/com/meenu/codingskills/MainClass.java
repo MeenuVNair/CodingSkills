@@ -1,8 +1,11 @@
 package com.meenu.codingskills;
 
 import com.meenu.codingskills.leetcode.CountPrimes;
+import com.meenu.codingskills.leetcode.DetectCapital;
 import com.meenu.codingskills.leetcode.HappyNumber;
+import com.meenu.codingskills.leetcode.HouseRobber;
 import com.meenu.codingskills.leetcode.MaximumDepthOfBinaryTree;
+import com.meenu.codingskills.leetcode.SameTree;
 import com.meenu.codingskills.leetcode.SortArrayByParity;
 import com.meenu.codingskills.leetcode.SymmetricTree;
 
@@ -243,6 +246,18 @@ public class MainClass {
 
 //-----------------------------MaximumDepthOfBinaryTree----------------------------------------------------------------
 //		MaximumDepthOfBinaryTree obj = new MaximumDepthOfBinaryTree();
+//		obj.findSolution();
+
+//-----------------------------SameTree----------------------------------------------------------------
+//		SameTree obj = new SameTree();
+//		obj.findSolution();
+
+//-----------------------------HouseRobber----------------------------------------------------------------
+//		HouseRobber obj = new HouseRobber();
+//		obj.findSolution();
+
+//-----------------------------DetectCapital----------------------------------------------------------------
+//		DetectCapital obj = new DetectCapital();
 //		obj.findSolution();
 
 		
