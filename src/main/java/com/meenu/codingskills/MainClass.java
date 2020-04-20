@@ -1,13 +1,23 @@
 package com.meenu.codingskills;
 
+import com.meenu.codingskills.leetcode.AddBinary;
 import com.meenu.codingskills.leetcode.CountPrimes;
 import com.meenu.codingskills.leetcode.DetectCapital;
+import com.meenu.codingskills.leetcode.FlippingAnImage;
+import com.meenu.codingskills.leetcode.FloodFill;
 import com.meenu.codingskills.leetcode.HappyNumber;
 import com.meenu.codingskills.leetcode.HouseRobber;
+import com.meenu.codingskills.leetcode.KClosestPointsToOrigin;
+import com.meenu.codingskills.leetcode.LicenseKeyFormatting;
 import com.meenu.codingskills.leetcode.MaximumDepthOfBinaryTree;
+import com.meenu.codingskills.leetcode.MostCommonWord;
+import com.meenu.codingskills.leetcode.RemoveDuplicatesFromSortedArray;
+import com.meenu.codingskills.leetcode.ReverseLinkedList;
 import com.meenu.codingskills.leetcode.SameTree;
 import com.meenu.codingskills.leetcode.SortArrayByParity;
+import com.meenu.codingskills.leetcode.SumOfLeftLeaves;
 import com.meenu.codingskills.leetcode.SymmetricTree;
+import com.meenu.codingskills.leetcode.UniqueEmailAddresses;
 
 public class MainClass {
 
@@ -258,6 +268,46 @@ public class MainClass {
 
 //-----------------------------DetectCapital----------------------------------------------------------------
 //		DetectCapital obj = new DetectCapital();
+//		obj.findSolution();
+
+//-----------------------------LicenseKeyFormatting----------------------------------------------------------------
+//		LicenseKeyFormatting obj = new LicenseKeyFormatting();
+//		obj.findSolution();
+
+//-----------------------------KClosestPointsToOrigin----------------------------------------------------------------
+//		KClosestPointsToOrigin obj = new KClosestPointsToOrigin();
+//		obj.findSolution();
+
+//-----------------------------UniqueEmailAddresses----------------------------------------------------------------
+//		UniqueEmailAddresses obj = new UniqueEmailAddresses();
+//		obj.findSolution();
+
+//-----------------------------MostCommonWord----------------------------------------------------------------
+//		MostCommonWord obj = new MostCommonWord();
+//		obj.findSolution();
+
+//-----------------------------ReverseLinkedList----------------------------------------------------------------
+//		ReverseLinkedList obj = new ReverseLinkedList();
+//		obj.findSolution();		
+
+//-----------------------------FloodFill----------------------------------------------------------------
+//		FloodFill obj = new FloodFill();
+//		obj.findSolution();		
+
+//-----------------------------AddBinary----------------------------------------------------------------
+//		AddBinary obj = new AddBinary();
+//		obj.findSolution();
+
+//-----------------------------FlippingAnImage----------------------------------------------------------------
+//		FlippingAnImage obj = new FlippingAnImage();
+//		obj.findSolution();
+
+//-----------------------------RemoveDuplicatesFromSortedArray----------------------------------------------------------------
+//		RemoveDuplicatesFromSortedArray obj = new RemoveDuplicatesFromSortedArray();
+//		obj.findSolution();
+
+//-----------------------------SumOfLeftLeaves----------------------------------------------------------------
+//		SumOfLeftLeaves obj = new SumOfLeftLeaves();
 //		obj.findSolution();
 
 		
