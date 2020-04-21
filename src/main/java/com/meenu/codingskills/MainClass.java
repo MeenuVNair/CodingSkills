@@ -1,11 +1,10 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.leetcode.easy.BinaryNumberWithAlternatingBits;
-import com.meenu.codingskills.leetcode.easy.JewelsAndStones;
-import com.meenu.codingskills.leetcode.easy.LowestCommonAncestorOfBST;
-import com.meenu.codingskills.leetcode.easy.MonotonicArray;
-import com.meenu.codingskills.leetcode.easy.NumbersNotInArray;
-import com.meenu.codingskills.leetcode.easy.ValidPalindrome;
+import com.meenu.codingskills.leetcode.easy.IntersectionOfTwoArrays;
+import com.meenu.codingskills.leetcode.easy.MajorityElement;
+import com.meenu.codingskills.leetcode.easy.MeetingRooms;
+import com.meenu.codingskills.leetcode.easy.MissingNumber;
+import com.meenu.codingskills.leetcode.easy.MovingAverageFromDataStream;
 
 public class MainClass {
 
@@ -320,6 +319,50 @@ public class MainClass {
 
 //-----------------------------JewelsAndStones----------------------------------------------------------------
 //		LowestCommonAncestorOfBST obj = new LowestCommonAncestorOfBST();
+//		obj.findSolution();
+
+//-----------------------------ClimbingStairs----------------------------------------------------------------
+//		ClimbingStairs obj = new ClimbingStairs();
+//		obj.findSolution();
+
+//-----------------------------NumberComplement----------------------------------------------------------------
+//		NumberComplement obj = new NumberComplement();
+//		obj.findSolution();
+		
+//-----------------------------RemoveElement----------------------------------------------------------------
+//		RemoveElement obj = new RemoveElement();
+//		obj.findSolution();
+
+//-----------------------------RemoveElement----------------------------------------------------------------
+//		BestTimeToBuyAndSellStock obj = new BestTimeToBuyAndSellStock();
+//		obj.findSolution();
+
+//-----------------------------HammingDistance----------------------------------------------------------------
+//		HammingDistance obj = new HammingDistance();
+//		obj.findSolution();
+
+//-----------------------------MajorityElement----------------------------------------------------------------
+//		MajorityElement obj = new MajorityElement();
+//		obj.findSolution();
+
+//-----------------------------MajorityElement2----------------------------------------------------------------
+//		MajorityElement2 obj = new MajorityElement2();
+//		obj.findSolution();
+
+//-----------------------------MovingAverageFromDataStream----------------------------------------------------------------
+//		MovingAverageFromDataStream obj = new MovingAverageFromDataStream(0);
+//		obj.findSolution();
+
+//-----------------------------MeetingRooms----------------------------------------------------------------
+//		MeetingRooms obj = new MeetingRooms();
+//		obj.findSolution();
+
+//-----------------------------MissingNumber----------------------------------------------------------------
+//		MissingNumber obj = new MissingNumber();
+//		obj.findSolution();
+
+//-----------------------------IntersectionOfTwoArrays----------------------------------------------------------------
+//		IntersectionOfTwoArrays obj = new IntersectionOfTwoArrays();
 //		obj.findSolution();
 
 		
