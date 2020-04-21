@@ -1,23 +1,11 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.leetcode.AddBinary;
-import com.meenu.codingskills.leetcode.CountPrimes;
-import com.meenu.codingskills.leetcode.DetectCapital;
-import com.meenu.codingskills.leetcode.FlippingAnImage;
-import com.meenu.codingskills.leetcode.FloodFill;
-import com.meenu.codingskills.leetcode.HappyNumber;
-import com.meenu.codingskills.leetcode.HouseRobber;
-import com.meenu.codingskills.leetcode.KClosestPointsToOrigin;
-import com.meenu.codingskills.leetcode.LicenseKeyFormatting;
-import com.meenu.codingskills.leetcode.MaximumDepthOfBinaryTree;
-import com.meenu.codingskills.leetcode.MostCommonWord;
-import com.meenu.codingskills.leetcode.RemoveDuplicatesFromSortedArray;
-import com.meenu.codingskills.leetcode.ReverseLinkedList;
-import com.meenu.codingskills.leetcode.SameTree;
-import com.meenu.codingskills.leetcode.SortArrayByParity;
-import com.meenu.codingskills.leetcode.SumOfLeftLeaves;
-import com.meenu.codingskills.leetcode.SymmetricTree;
-import com.meenu.codingskills.leetcode.UniqueEmailAddresses;
+import com.meenu.codingskills.leetcode.easy.BinaryNumberWithAlternatingBits;
+import com.meenu.codingskills.leetcode.easy.JewelsAndStones;
+import com.meenu.codingskills.leetcode.easy.LowestCommonAncestorOfBST;
+import com.meenu.codingskills.leetcode.easy.MonotonicArray;
+import com.meenu.codingskills.leetcode.easy.NumbersNotInArray;
+import com.meenu.codingskills.leetcode.easy.ValidPalindrome;
 
 public class MainClass {
 
@@ -308,6 +296,30 @@ public class MainClass {
 
 //-----------------------------SumOfLeftLeaves----------------------------------------------------------------
 //		SumOfLeftLeaves obj = new SumOfLeftLeaves();
+//		obj.findSolution();
+
+//-----------------------------MonotonicArray----------------------------------------------------------------
+//		MonotonicArray obj = new MonotonicArray();
+//		obj.findSolution();
+	
+//-----------------------------NumbersNotInArray----------------------------------------------------------------
+//		NumbersNotInArray obj = new NumbersNotInArray();
+//		obj.findSolution();
+
+//-----------------------------ValidPalindrome----------------------------------------------------------------
+//		ValidPalindrome obj = new ValidPalindrome();
+//		obj.findSolution();
+
+//-----------------------------BinaryNumberWithAlternatingBits----------------------------------------------------------------
+//		BinaryNumberWithAlternatingBits obj = new BinaryNumberWithAlternatingBits();
+//		obj.findSolution();
+
+//-----------------------------JewelsAndStones----------------------------------------------------------------
+//		JewelsAndStones obj = new JewelsAndStones();
+//		obj.findSolution();
+
+//-----------------------------JewelsAndStones----------------------------------------------------------------
+//		LowestCommonAncestorOfBST obj = new LowestCommonAncestorOfBST();
 //		obj.findSolution();
 
 		
