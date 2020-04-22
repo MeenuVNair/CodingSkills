@@ -1,10 +1,11 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.leetcode.easy.IntersectionOfTwoArrays;
-import com.meenu.codingskills.leetcode.easy.MajorityElement;
-import com.meenu.codingskills.leetcode.easy.MeetingRooms;
-import com.meenu.codingskills.leetcode.easy.MissingNumber;
-import com.meenu.codingskills.leetcode.easy.MovingAverageFromDataStream;
+import com.meenu.codingskills.leetcode.easy.FirstUniqueCharacterInAString;
+import com.meenu.codingskills.leetcode.easy.LongestCommonPrefix;
+import com.meenu.codingskills.leetcode.easy.RansomNote;
+import com.meenu.codingskills.leetcode.easy.ReverseString;
+import com.meenu.codingskills.leetcode.easy.ValidAnagram;
+import com.meenu.codingskills.leetcode.easy.ValidPalindrome2;
 
 public class MainClass {
 
@@ -333,8 +334,8 @@ public class MainClass {
 //		RemoveElement obj = new RemoveElement();
 //		obj.findSolution();
 
-//-----------------------------RemoveElement----------------------------------------------------------------
-//		BestTimeToBuyAndSellStock obj = new BestTimeToBuyAndSellStock();
+//-----------------------------BestTimeToBuyAndSellStock2----------------------------------------------------------------
+//		BestTimeToBuyAndSellStock2 obj = new BestTimeToBuyAndSellStock2();
 //		obj.findSolution();
 
 //-----------------------------HammingDistance----------------------------------------------------------------
@@ -365,6 +366,98 @@ public class MainClass {
 //		IntersectionOfTwoArrays obj = new IntersectionOfTwoArrays();
 //		obj.findSolution();
 
-		
+//-----------------------------ConvertSortedArrayToBST----------------------------------------------------------------
+//		ConvertSortedArrayToBST obj = new ConvertSortedArrayToBST();
+//		obj.findSolution();
+
+//-----------------------------FindTheDifference----------------------------------------------------------------
+//		FindTheDifference obj = new FindTheDifference();
+//		obj.findSolution();
+
+//-----------------------------ContainsDuplicate2----------------------------------------------------------------
+//		ContainsDuplicate2 obj = new ContainsDuplicate2();
+//		obj.findSolution();
+
+//-----------------------------RobotReturnToOrigin----------------------------------------------------------------
+//		RobotReturnToOrigin obj = new RobotReturnToOrigin();
+//		obj.findSolution();
+
+//-----------------------------PaintHouse----------------------------------------------------------------
+//		PaintHouse obj = new PaintHouse();
+//		obj.findSolution();
+
+//-----------------------------FirstBadVersion----------------------------------------------------------------
+//		FirstBadVersion obj = new FirstBadVersion();
+//		obj.findSolution();
+
+//-----------------------------PlusOne----------------------------------------------------------------
+//		PlusOne obj = new PlusOne();
+//		obj.findSolution();
+
+//-----------------------------ReverseInteger----------------------------------------------------------------
+//		ReverseInteger obj = new ReverseInteger();
+//		obj.findSolution();
+
+//-----------------------------MoveZeroes----------------------------------------------------------------
+//		MoveZeroes obj = new MoveZeroes();
+//		obj.findSolution();
+
+//-----------------------------BackspaceStringCompare----------------------------------------------------------------
+//		BackspaceStringCompare obj = new BackspaceStringCompare();
+//		obj.findSolution();
+
+//-----------------------------TwoSum----------------------------------------------------------------
+//		TwoSum obj = new TwoSum();
+//		obj.findSolution();
+
+//-----------------------------PowerOfTwo----------------------------------------------------------------
+//		PowerOfTwo obj = new PowerOfTwo();
+//		obj.findSolution();
+
+//-----------------------------ValidParentheses----------------------------------------------------------------
+//		ValidParentheses obj = new ValidParentheses();
+//		obj.findSolution();
+
+//-----------------------------SingleNumber----------------------------------------------------------------
+//		SingleNumber obj = new SingleNumber();
+//		obj.findSolution();
+
+//-----------------------------FizzBuzz----------------------------------------------------------------
+//		FizzBuzz obj = new FizzBuzz();
+//		obj.findSolution();
+
+//-----------------------------ContainsDuplicate----------------------------------------------------------------
+//		ContainsDuplicate obj = new ContainsDuplicate();
+//		obj.findSolution();
+
+//-----------------------------BestTimeToBuyAndSellStock----------------------------------------------------------------
+//		BestTimeToBuyAndSellStock obj = new BestTimeToBuyAndSellStock();
+//		obj.findSolution();
+
+//-----------------------------FirstUniqueCharacterInAString----------------------------------------------------------------
+//		FirstUniqueCharacterInAString obj = new FirstUniqueCharacterInAString();
+//		obj.findSolution();
+
+//-----------------------------ValidAnagram----------------------------------------------------------------
+//		ValidAnagram obj = new ValidAnagram();
+//		obj.findSolution();
+
+//-----------------------------ReverseString----------------------------------------------------------------
+//		ReverseString obj = new ReverseString();
+//		obj.findSolution();
+
+//-----------------------------RansomNote----------------------------------------------------------------
+//		RansomNote obj = new RansomNote();
+//		obj.findSolution();
+
+//-----------------------------ValidPalindrome2----------------------------------------------------------------
+//		ValidPalindrome2 obj = new ValidPalindrome2();
+//		obj.findSolution();
+
+//-----------------------------LongestCommonPrefix----------------------------------------------------------------
+//		LongestCommonPrefix obj = new LongestCommonPrefix();
+//		obj.findSolution();
+
+
 	}
 }
