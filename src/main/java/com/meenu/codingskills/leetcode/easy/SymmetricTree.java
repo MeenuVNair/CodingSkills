@@ -22,6 +22,10 @@ But the following [1,2,2,null,3,null,3] is not:
  */
 
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class SymmetricTree {
 
 	class TreeNode{

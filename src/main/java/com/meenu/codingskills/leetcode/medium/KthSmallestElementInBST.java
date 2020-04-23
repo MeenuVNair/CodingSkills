@@ -31,6 +31,10 @@ Input: root = [5,3,6,2,4,null,null,1], k = 3
 Output: 3
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class KthSmallestElementInBST {
 
 	class TreeNode {

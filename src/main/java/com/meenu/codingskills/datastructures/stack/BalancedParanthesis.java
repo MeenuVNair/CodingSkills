@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.stack;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class BalancedParanthesis {
 	static int MAX_SIZE = 10;
 	static char arr[] = new char[MAX_SIZE];

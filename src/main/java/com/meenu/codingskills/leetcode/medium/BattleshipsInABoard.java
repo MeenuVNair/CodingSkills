@@ -17,6 +17,10 @@ Invalid input	Input : ...X
 This is an invalid board that you will not receive - as battleships will always have a cell separating between them.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class BattleshipsInABoard {
 	private int countBattleShips(char[][] board) {
 		if(board.length == 0)

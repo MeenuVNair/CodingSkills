@@ -32,6 +32,10 @@ Return:
 ]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FizzBuzz {
 
 	private List<String> fizzBuzz(int n) {

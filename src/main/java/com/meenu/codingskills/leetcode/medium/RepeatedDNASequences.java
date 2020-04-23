@@ -5,6 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class RepeatedDNASequences {
 
 	private List<String> findRepeatedDnaSequences(String s) {

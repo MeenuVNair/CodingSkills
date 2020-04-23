@@ -16,6 +16,10 @@ Output: true
 
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MeetingRooms {
 
 	class Interval{

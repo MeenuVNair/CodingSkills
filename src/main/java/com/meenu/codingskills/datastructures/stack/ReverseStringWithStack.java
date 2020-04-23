@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.stack;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ReverseStringWithStack {
 
 	static int MAX_SIZE = 101;

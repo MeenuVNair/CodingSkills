@@ -29,6 +29,10 @@ Output: 4
 Explanation: 4 boats (3), (3), (4), (5)
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class BoatsToSavePeople {
 	
 	private int numRescueBoats(int[] people, int limit) {

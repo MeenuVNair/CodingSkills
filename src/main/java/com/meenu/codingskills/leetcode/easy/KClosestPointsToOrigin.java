@@ -26,6 +26,10 @@ Output: [[3,3],[-2,4]]
 		(The answer [[-2,4],[3,3]] would also be accepted.)
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class KClosestPointsToOrigin {
 
 	private int[][] kClosest(int[][] points, int K) {

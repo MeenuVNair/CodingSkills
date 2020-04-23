@@ -14,6 +14,10 @@ m.next(3) = (1 + 10 + 3) / 3
 m.next(5) = (10 + 3 + 5) / 3
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MovingAverageFromDataStream {
 	int size;
 	Queue<Integer> window;

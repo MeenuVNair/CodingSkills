@@ -21,6 +21,10 @@ Note the bottom corner is not colored 2, because it is not 4-directionally conne
 to the starting pixel.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FloodFill {
 
 	private int[][] floodFill(int[][] image, int sr, int sc, int newColor) {

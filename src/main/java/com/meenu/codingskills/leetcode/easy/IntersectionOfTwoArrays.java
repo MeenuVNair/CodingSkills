@@ -15,6 +15,10 @@ Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
 Output: [9,4]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class IntersectionOfTwoArrays {
 
 	private int[] intersection(int[] nums1, int[] nums2) {

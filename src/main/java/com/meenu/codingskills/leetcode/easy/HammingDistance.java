@@ -22,6 +22,10 @@ Explanation:
 The above arrows point to positions where the corresponding bits are different.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class HammingDistance {
 
 	private int hammingDistance(int x, int y) {

@@ -19,6 +19,10 @@ Output:
 ]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class GroupedAnagrams {
 
 	private List<List<String>> groupAnagrams(String[] strs) {

@@ -18,6 +18,10 @@ call isBadVersion(4) -> true
 Then 4 is the first bad version. 
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FirstBadVersion {
 	
 	private boolean isBadVersion(int version) {

@@ -1,12 +1,24 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.leetcode.easy.FirstUniqueCharacterInAString;
-import com.meenu.codingskills.leetcode.easy.LongestCommonPrefix;
-import com.meenu.codingskills.leetcode.easy.RansomNote;
-import com.meenu.codingskills.leetcode.easy.ReverseString;
-import com.meenu.codingskills.leetcode.easy.ValidAnagram;
-import com.meenu.codingskills.leetcode.easy.ValidPalindrome2;
+import com.meenu.codingskills.leetcode.easy.AddStrings;
+import com.meenu.codingskills.leetcode.easy.AssignCookies;
+import com.meenu.codingskills.leetcode.easy.DefangingAnIPAddress;
+import com.meenu.codingskills.leetcode.easy.IntersectionOfTwoArrays2;
+import com.meenu.codingskills.leetcode.easy.IntersectionOfTwoLinkedLists;
+import com.meenu.codingskills.leetcode.easy.LastStoneWeight;
+import com.meenu.codingskills.leetcode.easy.LengthOfLastWord;
+import com.meenu.codingskills.leetcode.easy.PowerOfFour;
+import com.meenu.codingskills.leetcode.easy.RangeSumOfBST;
+import com.meenu.codingskills.leetcode.easy.ReverseOnlyLetters;
+import com.meenu.codingskills.leetcode.easy.SplitAStringInBalancedString;
+import com.meenu.codingskills.leetcode.easy.StringCompression;
+import com.meenu.codingskills.leetcode.easy.SubtreeOfAnotherTree;
+import com.meenu.codingskills.leetcode.easy.ValidPerfectSquare;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MainClass {
 
 	public static void main(String[] args) {
@@ -458,6 +470,84 @@ public class MainClass {
 //		LongestCommonPrefix obj = new LongestCommonPrefix();
 //		obj.findSolution();
 
+//-----------------------------MergeTwoSortedList----------------------------------------------------------------
+//		MergeTwoSortedList obj = new MergeTwoSortedList();
+//		obj.findSolution();
 
+//-----------------------------FlipGame----------------------------------------------------------------
+//		FlipGame obj = new FlipGame();
+//		obj.findSolution();
+
+//-----------------------------ValidMountainArray----------------------------------------------------------------
+//		ValidMountainArray obj = new ValidMountainArray();
+//		obj.findSolution();
+
+//-----------------------------ReverseVowelsOfAString----------------------------------------------------------------
+//		ReverseVowelsOfAString obj = new ReverseVowelsOfAString();
+//		obj.findSolution();
+
+//-----------------------------RemoveVowelsFromAString----------------------------------------------------------------
+//		RemoveVowelsFromAString obj = new RemoveVowelsFromAString();
+//		obj.findSolution();
+
+//-----------------------------BinaryTreePaths----------------------------------------------------------------
+//		BinaryTreePaths obj = new BinaryTreePaths();
+//		obj.findSolution();
+
+//-----------------------------IntersectionOfTwoLinkedLists----------------------------------------------------------------
+//		IntersectionOfTwoLinkedLists obj = new IntersectionOfTwoLinkedLists();
+//		obj.findSolution();
+
+//-----------------------------PowerOfFour----------------------------------------------------------------
+//		PowerOfFour obj = new PowerOfFour();
+//		obj.findSolution();
+
+//-----------------------------IntersectionOfTwoArrays2----------------------------------------------------------------
+//		IntersectionOfTwoArrays2 obj = new IntersectionOfTwoArrays2();
+//		obj.findSolution();
+
+//-----------------------------ValidPerfectSquare----------------------------------------------------------------
+//		ValidPerfectSquare obj = new ValidPerfectSquare();
+//		obj.findSolution();
+
+
+//-----------------------------DefangingAnIPAddress----------------------------------------------------------------
+//		DefangingAnIPAddress obj = new DefangingAnIPAddress();
+//		obj.findSolution();
+
+//-----------------------------RangeSumOfBST----------------------------------------------------------------
+//		RangeSumOfBST obj = new RangeSumOfBST();
+//		obj.findSolution();
+
+//-----------------------------LengthOfLastWord----------------------------------------------------------------
+//		LengthOfLastWord obj = new LengthOfLastWord();
+//		obj.findSolution();
+
+//-----------------------------LastStoneWeight----------------------------------------------------------------
+//		LastStoneWeight obj = new LastStoneWeight();
+//		obj.findSolution();
+
+//-----------------------------AddStrings----------------------------------------------------------------
+//		AddStrings obj = new AddStrings();
+
+//-----------------------------SplitAStringInBalancedString----------------------------------------------------------------
+//		SplitAStringInBalancedString obj = new SplitAStringInBalancedString();
+
+//-----------------------------ReverseOnlyLetters----------------------------------------------------------------
+//		ReverseOnlyLetters obj = new ReverseOnlyLetters();
+
+//-----------------------------AssignCookies----------------------------------------------------------------
+//		AssignCookies obj = new AssignCookies();
+
+//-----------------------------SubtreeOfAnotherTree----------------------------------------------------------------
+//		SubtreeOfAnotherTree obj = new SubtreeOfAnotherTree();
+
+//-----------------------------StringCompression----------------------------------------------------------------
+//		StringCompression obj = new StringCompression();
+
+		
+//		obj.findSolution();
+
+		
 	}
 }

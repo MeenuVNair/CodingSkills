@@ -22,6 +22,10 @@ Output: 2
 Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class UniqueEmailAddresses {
 
 	private int numUniqueEmails(String[] emails) {

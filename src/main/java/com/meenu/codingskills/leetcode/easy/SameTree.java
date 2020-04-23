@@ -39,6 +39,10 @@ Input:     1         1
 Output: false
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class SameTree {
 
 	class TreeNode{

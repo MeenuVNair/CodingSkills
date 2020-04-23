@@ -2,6 +2,10 @@ package com.meenu.codingskills.datastructures.tree;
 
 import com.meenu.codingskills.datastructures.tree.BinarySearchTree.Node;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MinAndMaxInBST {
 
 	public void findSolution() {

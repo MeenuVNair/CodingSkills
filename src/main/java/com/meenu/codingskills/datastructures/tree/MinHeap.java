@@ -3,6 +3,10 @@ package com.meenu.codingskills.datastructures.tree;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MinHeap {
 	List<Integer> items;
 	public MinHeap() {

@@ -13,6 +13,10 @@ Input: [9,6,4,2,3,5,7,0,1]
 Output: 8 
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MissingNumber {
 
 	private int missingNumber(int[] nums) {

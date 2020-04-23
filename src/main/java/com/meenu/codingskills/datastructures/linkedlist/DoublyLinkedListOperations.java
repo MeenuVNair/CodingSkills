@@ -2,6 +2,10 @@ package com.meenu.codingskills.datastructures.linkedlist;
 
 import com.meenu.codingskills.datastructures.linkedlist.DoublyLinkedList.Node;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class DoublyLinkedListOperations {
 
 	public void findSolution() {

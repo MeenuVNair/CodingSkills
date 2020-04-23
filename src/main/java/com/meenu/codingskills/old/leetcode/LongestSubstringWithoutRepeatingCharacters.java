@@ -21,6 +21,10 @@ import java.util.Map;
             Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
  * 
  */
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class LongestSubstringWithoutRepeatingCharacters {
 	
 	public static void main(String args[]) {

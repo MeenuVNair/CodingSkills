@@ -6,6 +6,10 @@ package com.meenu.codingskills.leetcode.medium;
 Note: You may not slant the container and n is at least 2.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ContainerWithMostWater {
 
 	// first approach

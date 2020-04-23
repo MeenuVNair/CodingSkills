@@ -20,6 +20,10 @@ Output: "2-5G-3J"
 Explanation: The string S has been split into three parts, each part has 2 characters except the first part as it could be shorter as mentioned above.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class LicenseKeyFormatting {
 
 	private String licenseKeyFormatting(String S, int K) {

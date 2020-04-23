@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.queue;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class CircularQueue {
 
 	static int MAX_SIZE = 5;

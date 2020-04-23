@@ -19,6 +19,10 @@ Input: "FlaG"
 Output: False
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class DetectCapital {
 
 	private boolean detectCapitalUse(String word) {

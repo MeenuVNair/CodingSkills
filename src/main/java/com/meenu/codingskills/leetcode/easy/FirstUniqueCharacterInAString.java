@@ -14,6 +14,10 @@ s = "loveleetcode",
 return 2.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FirstUniqueCharacterInAString {
 
 	private int firstUniqChar(String s) {

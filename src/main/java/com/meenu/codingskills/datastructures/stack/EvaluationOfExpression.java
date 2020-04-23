@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.stack;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class EvaluationOfExpression {
 	static String stack[] = new String[20];
 	static int top = -1;

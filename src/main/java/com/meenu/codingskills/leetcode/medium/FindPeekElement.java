@@ -19,6 +19,10 @@ Note: Your solution should be in logarithmic complexity.
  * 
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FindPeekElement {
 
 	public void findSolution() {

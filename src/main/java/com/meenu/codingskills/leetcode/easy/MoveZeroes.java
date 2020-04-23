@@ -9,6 +9,10 @@ Input: [0,1,0,3,12] 1 0 1
 Output: [1,3,12,0,0]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MoveZeroes {
 
 	private void moveZeroes(int[] nums) {

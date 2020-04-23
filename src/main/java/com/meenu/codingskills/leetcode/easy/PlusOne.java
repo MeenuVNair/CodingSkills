@@ -19,6 +19,10 @@ Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class PlusOne {
 
 	private int[] plusOne(int[] digits) {

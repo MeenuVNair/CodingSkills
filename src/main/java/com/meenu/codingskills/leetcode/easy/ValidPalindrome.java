@@ -14,6 +14,10 @@ Input: "race a car"
 Output: false
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ValidPalindrome {
 
 	private boolean isPalindrome(String s) {

@@ -18,6 +18,10 @@ Explanation: The next closest time choosing from digits 2, 3, 5, 9, is 22:22.
     It may be assumed that the returned time is next day's time since it is smaller than the input time numerically.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class NextClosestTime {
 
 	private String nextCLosestTime(String time) {

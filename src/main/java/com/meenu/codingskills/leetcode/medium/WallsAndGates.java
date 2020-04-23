@@ -20,6 +20,10 @@ After running your function, the 2D grid should be:
  0  -1   3   4
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class WallsAndGates {
 	public int INF = 2147483647;
 	

@@ -25,6 +25,10 @@ Explanation:
 The binary representation of 10 is: 1010.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class BinaryNumberWithAlternatingBits {
 
 	private boolean hasAlternatingBits(int n) {

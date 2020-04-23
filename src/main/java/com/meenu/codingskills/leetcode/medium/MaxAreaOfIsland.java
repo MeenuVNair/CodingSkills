@@ -23,6 +23,10 @@ Given the above grid, return 0.
 Note: The length of each dimension in the given grid does not exceed 50.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MaxAreaOfIsland {
 
 	public void findSolution() {

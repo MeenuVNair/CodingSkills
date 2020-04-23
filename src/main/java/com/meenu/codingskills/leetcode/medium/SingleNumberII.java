@@ -18,6 +18,10 @@ Output: 99
  
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class SingleNumberII {
 	Map<Integer,Integer> map;
 

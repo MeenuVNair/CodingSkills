@@ -2,6 +2,10 @@ package com.meenu.codingskills.leetcode.medium;
 
 import com.meenu.codingskills.datastructures.tree.MinHeap;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class KthLargestElement {
 	private int findKthLargest(int[] array, int k) {
 		MinHeap minHeap = new MinHeap();

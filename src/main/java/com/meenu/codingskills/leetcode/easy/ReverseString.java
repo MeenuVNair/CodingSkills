@@ -19,6 +19,10 @@ Input: ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ReverseString {
 
 	private void reverseString(char[] s) {

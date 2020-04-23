@@ -21,6 +21,10 @@ Your function should return length = 5, with the first five elements of nums bei
 It doesn't matter what values are set beyond the returned length.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class RemoveDuplicatesFromSortedArray {
 
 	private int removeDuplicates(int[] nums) {

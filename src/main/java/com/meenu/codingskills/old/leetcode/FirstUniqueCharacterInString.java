@@ -7,6 +7,10 @@ import java.util.Map;
  * Program to find first unique character in a given string
  * 
  */
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FirstUniqueCharacterInString {
 	public static Map<Character, Integer> map = new HashMap<Character, Integer>();
 

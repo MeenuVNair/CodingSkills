@@ -24,6 +24,10 @@ Output:
 ]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class Subsets {
 
 	private List<List<Integer>> subsets(int[] nums) {

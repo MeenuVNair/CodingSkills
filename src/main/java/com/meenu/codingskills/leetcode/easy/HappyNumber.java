@@ -20,6 +20,10 @@ Explanation:
 
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class HappyNumber {
 
 	private boolean isHappy(int n) {

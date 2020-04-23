@@ -33,6 +33,10 @@ A solution set is:
 ]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class CombinationSumII {
 
 	private List<List<Integer>> combinationSum2(int[] candidates, int target) {

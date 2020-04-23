@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.stack;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class InfixToPostfix {
 	static char stack[] = new char[20];
 	static int top = -1;

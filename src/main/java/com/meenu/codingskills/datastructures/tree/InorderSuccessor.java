@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.tree;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class InorderSuccessor {
 
 	static class Node{

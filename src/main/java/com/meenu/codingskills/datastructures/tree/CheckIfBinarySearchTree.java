@@ -2,6 +2,10 @@ package com.meenu.codingskills.datastructures.tree;
 
 // Check if the given binary tree is a binary search tree
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class CheckIfBinarySearchTree {
 
 	static class Node{

@@ -29,6 +29,10 @@ Output: false
 Explanation: S becomes "c" while T becomes "b".
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class BackspaceStringCompare {
 
 	private boolean backspaceCompare(String S, String T) {

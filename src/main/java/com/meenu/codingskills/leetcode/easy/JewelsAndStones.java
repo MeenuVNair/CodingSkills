@@ -17,6 +17,10 @@ Input: J = "z", S = "ZZ"
 Output: 0
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class JewelsAndStones {
 
 	private int numJewelsInStones(String J, String S) {

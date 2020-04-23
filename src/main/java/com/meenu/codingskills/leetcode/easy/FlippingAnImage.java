@@ -21,6 +21,10 @@ Explanation: First reverse each row: [[0,0,1,1],[1,0,0,1],[1,1,1,0],[0,1,0,1]].
 Then invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FlippingAnImage {
 
 	private int[][] flipAndInvertImage(int[][] A) { 

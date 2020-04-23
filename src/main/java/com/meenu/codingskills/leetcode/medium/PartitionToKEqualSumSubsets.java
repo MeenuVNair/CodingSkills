@@ -12,6 +12,10 @@ Output: True
 Explanation: It's possible to divide it into 4 subsets (5), (1, 4), (2,3), (2,3) with equal sums.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class PartitionToKEqualSumSubsets {
 
 	private boolean canPartitionKSubsets(int[] nums, int k) {

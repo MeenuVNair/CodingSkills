@@ -21,6 +21,10 @@ Output: false
 Explanation: The array cannot be partitioned into equal sum subsets.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class PartitionEqualSubsetSum {
 
 	private boolean canPartition(int[] nums) {

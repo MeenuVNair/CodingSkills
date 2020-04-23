@@ -34,6 +34,10 @@ Output Format
 This is handled by the locked stub code in your editor. Your output will be correct if your Student class constructor and calculate() method are properly implemented.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class Inheritance {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

@@ -8,6 +8,10 @@ import java.util.PriorityQueue;
  * find the minimum number of conference rooms required.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MeetingRoomsII {
 	
 	private int minMeetingRooms(Interval[] intervals) {

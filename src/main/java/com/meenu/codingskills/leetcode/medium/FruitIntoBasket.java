@@ -38,6 +38,10 @@ If we started at the first tree or the eighth tree, we would only collect 4 frui
 // THIS IS BASICALLY A PROBLEM TO FIND LONGEST SUBSTRING WITH ONLY TWO DIFFERENT CHARACTERS
 
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FruitIntoBasket {
 	private int totalFruit(int[] tree) {
 		if(tree == null || tree.length == 0)

@@ -24,6 +24,10 @@ Output: 3
  * 
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class NumberOfIslands {
 
 	public void findSolution() {

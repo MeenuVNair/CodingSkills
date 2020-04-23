@@ -19,6 +19,10 @@ Given word = "SEE", return true.
 Given word = "ABCB", return false.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class WordSearch {
 
 	private boolean exist(char[][] board, String word) {

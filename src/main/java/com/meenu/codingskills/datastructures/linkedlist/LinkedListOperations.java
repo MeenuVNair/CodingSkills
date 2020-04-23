@@ -2,6 +2,10 @@ package com.meenu.codingskills.datastructures.linkedlist;
 
 import com.meenu.codingskills.datastructures.linkedlist.LinkedList.Node;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class LinkedListOperations {
 
 	private LinkedList insertFirst(LinkedList list, int data) {

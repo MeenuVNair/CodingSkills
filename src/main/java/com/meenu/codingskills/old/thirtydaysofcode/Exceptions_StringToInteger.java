@@ -23,6 +23,10 @@ Print the parsed integer value of , or Bad String if  cannot be converted to an 
  */
 
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class Exceptions_StringToInteger {
 	 public static void main(String[] args) {
 	      Scanner in = new Scanner(System.in);

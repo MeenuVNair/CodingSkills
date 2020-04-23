@@ -15,6 +15,11 @@ Input: a = "1010", b = "1011"
 Output: "10101"
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
+
 public class AddBinary {
 
 	private String addBinary(String a, String b) {

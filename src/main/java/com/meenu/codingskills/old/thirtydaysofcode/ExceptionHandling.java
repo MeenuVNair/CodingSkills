@@ -37,6 +37,10 @@ n and p should be non-negative
 
 import java.util.Scanner;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ExceptionHandling {
 	
 	public static void main(String[] args) {

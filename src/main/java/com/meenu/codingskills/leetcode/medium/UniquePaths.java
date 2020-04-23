@@ -23,6 +23,10 @@ Input: m = 7, n = 3
 Output: 28
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class UniquePaths {
 
 	private int uniquePaths(int m, int n) {

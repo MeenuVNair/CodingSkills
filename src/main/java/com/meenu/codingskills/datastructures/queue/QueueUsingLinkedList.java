@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.queue;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class QueueUsingLinkedList {
 	
 	static Node front;

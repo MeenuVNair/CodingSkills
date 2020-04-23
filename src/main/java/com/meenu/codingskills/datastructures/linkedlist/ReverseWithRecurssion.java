@@ -2,6 +2,10 @@ package com.meenu.codingskills.datastructures.linkedlist;
 
 import com.meenu.codingskills.datastructures.linkedlist.LinkedList.Node;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ReverseWithRecurssion {
 	static LinkedList list;
 	public void findSolution() {

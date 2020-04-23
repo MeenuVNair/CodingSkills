@@ -15,6 +15,10 @@ canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class RansomNote {
 	
 	private boolean canConstruct(String ransomNote, String magazine) {

@@ -22,6 +22,10 @@ Explanation:
 'e' is the letter that was added.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class FindTheDifference {
 
 	private char findTheDifference(String s, String t) {

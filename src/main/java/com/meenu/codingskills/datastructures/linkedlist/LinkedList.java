@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.linkedlist;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class LinkedList {
 	Node head;
 	

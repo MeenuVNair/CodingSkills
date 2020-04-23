@@ -29,6 +29,10 @@ Input: [1,1,1]
 Output: true
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MonotonicArray {
 
 	private boolean isMonotonic(int[] A) {

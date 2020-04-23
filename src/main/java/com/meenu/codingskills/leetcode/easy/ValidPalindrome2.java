@@ -12,6 +12,10 @@ Output: True
 Explanation: You could delete the character 'c'.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ValidPalindrome2 {
 
 	private boolean validPalindrome(String s) {

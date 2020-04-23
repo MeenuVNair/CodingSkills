@@ -14,6 +14,10 @@ import java.util.Map;
  * 
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class TwoSums {
 
 	public static void main(String[] args) {

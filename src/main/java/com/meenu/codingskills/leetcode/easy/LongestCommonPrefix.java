@@ -16,6 +16,10 @@ Output: ""
 Explanation: There is no common prefix among the input strings.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class LongestCommonPrefix {
 
 	private String longestCommonPrefix(String[] strs) {

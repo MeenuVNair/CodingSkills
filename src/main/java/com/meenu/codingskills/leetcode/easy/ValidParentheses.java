@@ -33,6 +33,10 @@ Input: "{[]}"
 Output: true
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ValidParentheses {
 
 	private boolean isValid(String s) {

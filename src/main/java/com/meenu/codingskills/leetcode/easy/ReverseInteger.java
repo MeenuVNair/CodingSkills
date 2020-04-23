@@ -19,6 +19,10 @@ Input: 120
 Output: 21
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ReverseInteger {
 
 	private int reverse(int x) {

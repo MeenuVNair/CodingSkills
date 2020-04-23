@@ -21,6 +21,10 @@ Output:
 [5,6]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class NumbersNotInArray {
 
 	private List<Integer> findDisappearedNumbers(int[] nums) {

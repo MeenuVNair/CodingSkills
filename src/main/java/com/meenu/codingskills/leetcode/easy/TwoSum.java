@@ -15,6 +15,10 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class TwoSum {
 
 	private int[] twoSum(int[] nums, int target) {

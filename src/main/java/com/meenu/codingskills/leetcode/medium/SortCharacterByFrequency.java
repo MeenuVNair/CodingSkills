@@ -42,6 +42,10 @@ Explanation:
 Note that 'A' and 'a' are treated as two different characters.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class SortCharacterByFrequency {
 
 	public void findSolution() {

@@ -26,6 +26,10 @@ Output: 2
 Explanation: The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class LowestCommonAncestorOfBST {
 
 	class TreeNode{

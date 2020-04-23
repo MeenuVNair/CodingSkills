@@ -19,6 +19,10 @@ Input: nums = [1,2,3,1,2,3], k = 2
 Output: false
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class ContainsDuplicate2 {
 
 	private boolean containsNearbyDuplicate(int[] nums, int k) {

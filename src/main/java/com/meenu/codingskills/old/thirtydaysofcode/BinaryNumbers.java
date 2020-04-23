@@ -20,6 +20,10 @@ Print a single base- integer denoting the maximum number of consecutive 's in th
 package com.meenu.codingskills.old.thirtydaysofcode;
 import java.util.*;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class BinaryNumbers {
 	
 	private static final Scanner scanner = new Scanner(System.in);

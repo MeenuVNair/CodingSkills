@@ -19,6 +19,10 @@ Input: [1,1,1,3,3,2,2,2]
 Output: [1,2]
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class MajorityElement2 {
 
 	private List<Integer> majorityElement(int[] nums) {

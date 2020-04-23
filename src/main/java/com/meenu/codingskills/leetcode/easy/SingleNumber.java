@@ -19,6 +19,10 @@ Input: [4,1,2,1,2]
 Output: 4
  */
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class SingleNumber {
 
 	private int singleNumber(int[] nums) {

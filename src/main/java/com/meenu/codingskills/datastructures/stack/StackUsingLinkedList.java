@@ -1,5 +1,9 @@
 package com.meenu.codingskills.datastructures.stack;
 
+/**
+ * @author Meenu V Nair
+ *
+ */
 public class StackUsingLinkedList {
 	static Node top = null;
 	static class Node{
