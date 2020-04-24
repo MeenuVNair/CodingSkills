@@ -1,9 +1,12 @@
 package com.meenu.codingskills;
 
+import com.meenu.codingskills.algorithms.BubbleSort;
 import com.meenu.codingskills.algorithms.HeapSort;
 import com.meenu.codingskills.algorithms.InsertionSort;
 import com.meenu.codingskills.algorithms.MergeSort;
 import com.meenu.codingskills.algorithms.QuickSort;
+import com.meenu.codingskills.algorithms.SelectionSort;
+import com.meenu.codingskills.leetcode.medium.CoinChange;
 
 /**
  * @author Meenu V Nair
@@ -550,7 +553,17 @@ public class MainClass {
 //-----------------------------InsertionSort----------------------------------------------------------------
 //		InsertionSort obj = new InsertionSort();
 
-//		obj.findSolution();
+//-----------------------------SelectionSort----------------------------------------------------------------
+//		SelectionSort obj = new SelectionSort();
+
+//-----------------------------BubbleSort----------------------------------------------------------------
+//		BubbleSort obj = new BubbleSort();
+
+//-----------------------------CoinChange----------------------------------------------------------------
+		CoinChange obj = new CoinChange();
+
+		
+		obj.findSolution();
 
 		
 	}
