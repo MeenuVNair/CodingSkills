@@ -1,19 +1,9 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.leetcode.easy.AddStrings;
-import com.meenu.codingskills.leetcode.easy.AssignCookies;
-import com.meenu.codingskills.leetcode.easy.DefangingAnIPAddress;
-import com.meenu.codingskills.leetcode.easy.IntersectionOfTwoArrays2;
-import com.meenu.codingskills.leetcode.easy.IntersectionOfTwoLinkedLists;
-import com.meenu.codingskills.leetcode.easy.LastStoneWeight;
-import com.meenu.codingskills.leetcode.easy.LengthOfLastWord;
-import com.meenu.codingskills.leetcode.easy.PowerOfFour;
-import com.meenu.codingskills.leetcode.easy.RangeSumOfBST;
-import com.meenu.codingskills.leetcode.easy.ReverseOnlyLetters;
-import com.meenu.codingskills.leetcode.easy.SplitAStringInBalancedString;
-import com.meenu.codingskills.leetcode.easy.StringCompression;
-import com.meenu.codingskills.leetcode.easy.SubtreeOfAnotherTree;
-import com.meenu.codingskills.leetcode.easy.ValidPerfectSquare;
+import com.meenu.codingskills.algorithms.HeapSort;
+import com.meenu.codingskills.algorithms.InsertionSort;
+import com.meenu.codingskills.algorithms.MergeSort;
+import com.meenu.codingskills.algorithms.QuickSort;
 
 /**
  * @author Meenu V Nair
@@ -545,7 +535,21 @@ public class MainClass {
 //-----------------------------StringCompression----------------------------------------------------------------
 //		StringCompression obj = new StringCompression();
 
+//-----------------------------BinarySearch----------------------------------------------------------------
+//		BinarySearch obj = new BinarySearch();
+
+//-----------------------------HeapSort----------------------------------------------------------------
+//		HeapSort obj = new HeapSort();
+
+//-----------------------------MergeSort----------------------------------------------------------------
+//		MergeSort obj = new MergeSort();
+
+//-----------------------------QuickSort----------------------------------------------------------------
+//		QuickSort obj = new QuickSort();
 		
+//-----------------------------InsertionSort----------------------------------------------------------------
+//		InsertionSort obj = new InsertionSort();
+
 //		obj.findSolution();
 
 		
