@@ -1,9 +1,8 @@
 package com.meenu.codingskills.leetcode.medium;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 
 /*
  * Problem description: Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent.
@@ -20,6 +19,65 @@ Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
  *
  */
 public class LetterCombinationOfPhoneNumber {
+	
+
+/***********************  Second solution from BackToBackSWE  **********************************************/
+	
+	private List<String> letterCombination(String digits){
+		if(digits.length() == 0)
+			return new ArrayList<>();
+		
+		List<String> allCombinations = new ArrayList<>();
+		exploreCombinations(0, new StringBuilder(), digits, allCombinations);
+		
+		return allCombinations;
+	}
+	
+	private void exploreCombinations(int currentDigit, StringBuilder partialCombination, String digits, List<String> allCombinations) {
+		
+		if(currentDigit == digits.length()) {
+			allCombinations.add(partialCombination.toString());
+			return;
+		}
+		
+		char digitCharacter = digits.charAt(currentDigit);
+		int digitIntValue = digitCharacter - '0';
+		
+		String letters = digitToLetterMapping.get(digitIntValue);
+		
+		for(char possibleLetter : letters.toCharArray()) {
+			partialCombination.append(possibleLetter);
+			exploreCombinations(currentDigit + 1, partialCombination, digits, allCombinations);
+			partialCombination.deleteCharAt(partialCombination.length() - 1);
+		}
+	}
+	
+	public void findSolution() {
+		String input = "23";
+		List<String> combinationList = letterCombination(input);
+		
+		System.out.println("combinations : ");
+		for(int i = 0; i < combinationList.size(); i++) {
+			System.out.print(combinationList.get(i) + " ");
+		}
+	}
+	
+	private List<String> digitToLetterMapping = Arrays.asList(
+			"",		// no combinations for 0 and 1
+			"",
+			"abc",
+			"def",
+			"ghi",
+			"jkl",
+			"mno",
+			"pqrs",
+			"tuv",
+			"wxyz"
+			);
+	
+/************************ First solution from Kevin Naughton Jr.  *******************************************/
+	
+	/*
 	@SuppressWarnings("serial")
 	Map<String , String> phone = new HashMap<String, String>(){{
 											put("2", "abc");
@@ -65,5 +123,6 @@ public class LetterCombinationOfPhoneNumber {
 		if(digits != null || digits.length() != 0)
 			backtrack("", digits);
 		return combinationList;
-	}
+	} 
+	*/
 }

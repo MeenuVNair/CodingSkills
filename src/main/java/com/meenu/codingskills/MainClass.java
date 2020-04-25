@@ -1,12 +1,7 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.algorithms.BubbleSort;
-import com.meenu.codingskills.algorithms.HeapSort;
-import com.meenu.codingskills.algorithms.InsertionSort;
-import com.meenu.codingskills.algorithms.MergeSort;
-import com.meenu.codingskills.algorithms.QuickSort;
-import com.meenu.codingskills.algorithms.SelectionSort;
-import com.meenu.codingskills.leetcode.medium.CoinChange;
+import com.meenu.codingskills.leetcode.medium.LongestCommonSubsequence;
+import com.meenu.codingskills.leetcode.medium.LongestIncreasingSubsequence;
 
 /**
  * @author Meenu V Nair
@@ -560,7 +555,35 @@ public class MainClass {
 //		BubbleSort obj = new BubbleSort();
 
 //-----------------------------CoinChange----------------------------------------------------------------
-		CoinChange obj = new CoinChange();
+//		CoinChange obj = new CoinChange();
+
+//-----------------------------NQueensProblem----------------------------------------------------------------
+//		NQueensProblem obj = new NQueensProblem();
+
+//-----------------------------LRUCache----------------------------------------------------------------
+//		LRUCache obj = new LRUCache();
+
+//-----------------------------RestoreIPAddresses----------------------------------------------------------------
+//		RestoreIPAddresses obj = new RestoreIPAddresses();
+
+//-----------------------------Permutations----------------------------------------------------------------
+//		Permutations obj = new Permutations();
+
+//-----------------------------Permutations2----------------------------------------------------------------
+//		Permutations2 obj = new Permutations2();
+
+//-----------------------------PermutationInString----------------------------------------------------------------
+//		PermutationInString obj = new PermutationInString();
+
+//-----------------------------GenerateAllPermutationsOfAString----------------------------------------------------------------
+//		GenerateAllPermutationsOfAString obj = new GenerateAllPermutationsOfAString();
+
+//-----------------------------GenerateAllPermutationsOfAString----------------------------------------------------------------
+//		LongestCommonSubsequence obj = new LongestCommonSubsequence();
+
+//-----------------------------LongestIncreasingSubsequence----------------------------------------------------------------
+		LongestIncreasingSubsequence obj = new LongestIncreasingSubsequence();
+
 
 		
 		obj.findSolution();
