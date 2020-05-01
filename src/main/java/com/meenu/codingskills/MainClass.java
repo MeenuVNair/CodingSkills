@@ -1,7 +1,12 @@
 package com.meenu.codingskills;
 
+import com.meenu.codingskills.dynamicProgramming.IsSubsequence;
+import com.meenu.codingskills.dynamicProgramming.MaximumSubarray;
+import com.meenu.codingskills.dynamicProgramming.RangeSumQueryImmutable;
+import com.meenu.codingskills.leetcode.easy.ImplementstrStr;
 import com.meenu.codingskills.leetcode.medium.LongestCommonSubsequence;
 import com.meenu.codingskills.leetcode.medium.LongestIncreasingSubsequence;
+import com.meenu.codingskills.leetcode.medium.PalindromePartitioning;
 
 /**
  * @author Meenu V Nair
@@ -582,10 +587,25 @@ public class MainClass {
 //		LongestCommonSubsequence obj = new LongestCommonSubsequence();
 
 //-----------------------------LongestIncreasingSubsequence----------------------------------------------------------------
-		LongestIncreasingSubsequence obj = new LongestIncreasingSubsequence();
+//		LongestIncreasingSubsequence obj = new LongestIncreasingSubsequence();
 
 
+//-----------------------------PalindromePartitioning----------------------------------------------------------------
+//		PalindromePartitioning obj = new PalindromePartitioning();
 		
+
+//-----------------------------MaximumSubarray----------------------------------------------------------------
+//		MaximumSubarray obj = new MaximumSubarray();
+
+//-----------------------------RangeSumQueryImmutable----------------------------------------------------------------
+//		RangeSumQueryImmutable obj = new RangeSumQueryImmutable(new int[0]);
+
+//-----------------------------IsSubsequence----------------------------------------------------------------
+//		IsSubsequence obj = new IsSubsequence();
+
+//-----------------------------ImplementstrStr----------------------------------------------------------------
+		ImplementstrStr obj = new ImplementstrStr();
+
 		obj.findSolution();
 
 		
