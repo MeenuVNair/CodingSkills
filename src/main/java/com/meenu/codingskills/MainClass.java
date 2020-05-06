@@ -1,12 +1,7 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.dynamicProgramming.IsSubsequence;
-import com.meenu.codingskills.dynamicProgramming.MaximumSubarray;
-import com.meenu.codingskills.dynamicProgramming.RangeSumQueryImmutable;
-import com.meenu.codingskills.leetcode.easy.ImplementstrStr;
-import com.meenu.codingskills.leetcode.medium.LongestCommonSubsequence;
-import com.meenu.codingskills.leetcode.medium.LongestIncreasingSubsequence;
-import com.meenu.codingskills.leetcode.medium.PalindromePartitioning;
+import com.meenu.codingskills.dailyCodingProblem.Problem7;
+import com.meenu.codingskills.dailyCodingProblem.Problem9;
 
 /**
  * @author Meenu V Nair
@@ -604,10 +599,31 @@ public class MainClass {
 //		IsSubsequence obj = new IsSubsequence();
 
 //-----------------------------ImplementstrStr----------------------------------------------------------------
-		ImplementstrStr obj = new ImplementstrStr();
+//		ImplementstrStr obj = new ImplementstrStr();
 
-		obj.findSolution();
+		
+//-----------------------------Problem11----------------------------------------------------------------
+//		Problem11 obj = new Problem11();
 
+//-----------------------------Problem1----------------------------------------------------------------
+//		Problem1 obj = new Problem1();
+
+//-----------------------------Problem2----------------------------------------------------------------
+//		Problem2 obj = new Problem2();
+
+//-----------------------------Problem4----------------------------------------------------------------
+//		Problem4 obj = new Problem4();
+
+//-----------------------------Problem5----------------------------------------------------------------
+//		Problem5 obj = new Problem5();
+
+//-----------------------------Problem7----------------------------------------------------------------
+//		Problem7 obj = new Problem7();
+
+//-----------------------------Problem9----------------------------------------------------------------
+//		Problem9 obj = new Problem9();
+
+//		obj.findSolution();
 		
 	}
 }
