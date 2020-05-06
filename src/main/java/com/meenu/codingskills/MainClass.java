@@ -1,6 +1,6 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.dailyCodingProblem.Problem7;
+import com.meenu.codingskills.dailyCodingProblem.Problem12;
 import com.meenu.codingskills.dailyCodingProblem.Problem9;
 
 /**
@@ -623,6 +623,10 @@ public class MainClass {
 //-----------------------------Problem9----------------------------------------------------------------
 //		Problem9 obj = new Problem9();
 
+//-----------------------------Problem12----------------------------------------------------------------
+//		Problem12 obj = new Problem12();
+
+		
 //		obj.findSolution();
 		
 	}
