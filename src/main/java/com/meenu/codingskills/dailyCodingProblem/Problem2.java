@@ -19,7 +19,9 @@ public class Problem2 {
 	
 /******************************** With division ****************************************/
 	
-	private int[] findProductArray(int[] inputArray) {
+	// This may cause issues if array contains 0
+	
+	/*private int[] findProductArray(int[] inputArray) {
 		int totalProduct = 1;
 		for(Integer i : inputArray) {
 			totalProduct *= i;
@@ -31,11 +33,36 @@ public class Problem2 {
 		}
 		
 		return productArray;
+	}*/
+	
+/******************************** Without division ****************************************/
+	
+	private int[] findProductArray(int[] inputArray) {
+		int len = inputArray.length;
+		int left[] = new int[len];
+		int right[] = new int[len];
+		
+		left[0] = 1;
+		right[len -1] = 1;
+		
+		for(int i = 1; i < len; i++) {
+			left[i] = left[i - 1] * inputArray[i - 1];
+		}
+		
+		for(int j = len - 2; j >= 0; j--) {
+			right[j] = right[j + 1] * inputArray[j + 1]; 
+		}
+		
+		for(int i= 0 ; i < len; i++) {
+			inputArray[i] = left[i] * right[i];
+		}
+		
+		return inputArray;
 	}
 	
 	public void findSolution() {
 		int inputArray[] = new int[] {1, 2, 3, 4, 5};
-		//int inputArray[] = new int[] {3, 2, 1};
+		//int inputArray[] = new int[] {3, 2, 1};       
 		
 		int productArray[] = findProductArray(inputArray);
 		for(Integer i : productArray) {

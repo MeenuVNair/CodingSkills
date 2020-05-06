@@ -1,7 +1,6 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.dailyCodingProblem.Problem12;
-import com.meenu.codingskills.dailyCodingProblem.Problem9;
+import com.meenu.codingskills.dailyCodingProblem.Problem2;
 
 /**
  * @author Meenu V Nair
