@@ -1,4 +1,4 @@
-package com.meenu.codingskills.old.thirtydaysofcode;
+package com.meenu.codingskills.thirtydaysofcode;
 
 import java.util.Scanner;
 

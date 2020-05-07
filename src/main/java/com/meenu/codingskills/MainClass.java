@@ -1,6 +1,7 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.dailyCodingProblem.Problem2;
+import com.meenu.codingskills.thirtydaysofcode.MiddleOfTheLinkedList;
+import com.meenu.codingskills.thirtydaysofcode.MinStack;
 
 /**
  * @author Meenu V Nair
@@ -624,6 +625,12 @@ public class MainClass {
 
 //-----------------------------Problem12----------------------------------------------------------------
 //		Problem12 obj = new Problem12();
+
+//-----------------------------MiddleOfTheLinkedList----------------------------------------------------------------
+//		MiddleOfTheLinkedList obj = new MiddleOfTheLinkedList();
+
+//-----------------------------MinStack----------------------------------------------------------------
+//		MinStack obj = new MinStack();
 
 		
 //		obj.findSolution();

@@ -17,7 +17,7 @@ Print a single base- integer denoting the maximum number of consecutive 's in th
  */
 
 
-package com.meenu.codingskills.old.thirtydaysofcode;
+package com.meenu.codingskills.thirtydaysofcode;
 import java.util.*;
 
 /**
