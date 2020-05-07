@@ -1,7 +1,10 @@
 package com.meenu.codingskills;
 
+import com.meenu.codingskills.thirtydaysofcode.ContiguousArray;
+import com.meenu.codingskills.thirtydaysofcode.DiameterOfBinaryTree;
 import com.meenu.codingskills.thirtydaysofcode.MiddleOfTheLinkedList;
 import com.meenu.codingskills.thirtydaysofcode.MinStack;
+import com.meenu.codingskills.thirtydaysofcode.ValidParenthesisString;
 
 /**
  * @author Meenu V Nair
@@ -631,6 +634,15 @@ public class MainClass {
 
 //-----------------------------MinStack----------------------------------------------------------------
 //		MinStack obj = new MinStack();
+
+//-----------------------------ContiguousArray----------------------------------------------------------------
+//		ContiguousArray obj = new ContiguousArray();
+
+//-----------------------------DiameterOfBinaryTree----------------------------------------------------------------
+//		DiameterOfBinaryTree obj = new DiameterOfBinaryTree();
+
+//-----------------------------ValidParenthesisString----------------------------------------------------------------
+//		ValidParenthesisString obj = new ValidParenthesisString();
 
 		
 //		obj.findSolution();
