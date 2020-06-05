@@ -26,14 +26,14 @@ public class GenerateAllPermutationsOfAString {
 			result.add(new ArrayList<>(list));
 			return;
 		}
-		HashSet<Character> set = new HashSet<>();
+		//HashSet<Character> set = new HashSet<>();
 		for(int i = start; i < input.length; i++) {
-			if(!set.contains(input[i])) {
-				set.add(input[i]);
+			//if(!set.contains(input[i])) {
+			//	set.add(input[i]);
 				swap(input, start, i);
 				generatePermutations(start + 1, input, result);
 				swap(input, start, i);
-			}
+			//}
 		}
 	}
 	

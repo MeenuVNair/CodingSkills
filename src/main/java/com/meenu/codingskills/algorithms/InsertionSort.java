@@ -15,9 +15,7 @@ public class InsertionSort {
 			int pos = i;
 			
 			while(pos > 0 && arr[pos - 1] > value) {
-				int temp = arr[pos - 1];
-				arr[pos - 1] = arr[pos];
-				arr[pos] = temp;
+				arr[pos] = arr[pos - 1];
 				pos = pos - 1;
 			}
 			arr[pos] = value;

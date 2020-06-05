@@ -9,7 +9,7 @@ public class InfixToPostfix {
 	static int top = -1;
 
 	public void findSolution() {
-		String infix = "((a+b)*c-d)*e"; // "a+b*c-d*e";
+		String infix = "a+b*c-d*e"; //"((a+b)*c-d)*e"; // "a+b*c-d*e";
 		System.out.println("Infix expression : " + infix);
 		String postfix = "";
 		

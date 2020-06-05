@@ -1,10 +1,11 @@
 package com.meenu.codingskills;
 
-import com.meenu.codingskills.thirtydaysofcode.ContiguousArray;
-import com.meenu.codingskills.thirtydaysofcode.DiameterOfBinaryTree;
-import com.meenu.codingskills.thirtydaysofcode.MiddleOfTheLinkedList;
-import com.meenu.codingskills.thirtydaysofcode.MinStack;
-import com.meenu.codingskills.thirtydaysofcode.ValidParenthesisString;
+import com.meenu.codingskills.leetcode.easy.ValidAnagram;
+import com.meenu.codingskills.practice.AllCombinationsOfAString;
+import com.meenu.codingskills.practice.AllPermutationsOfAString;
+import com.meenu.codingskills.practice.ConvertCases;
+import com.meenu.codingskills.practice.RemoveAllWhiteSpaces;
+import com.meenu.codingskills.practice.ReverseWordsOfASentence;
 
 /**
  * @author Meenu V Nair
@@ -644,7 +645,33 @@ public class MainClass {
 //-----------------------------ValidParenthesisString----------------------------------------------------------------
 //		ValidParenthesisString obj = new ValidParenthesisString();
 
+//-----------------------------Problem13----------------------------------------------------------------
+//		Problem13 obj = new Problem13();
+
+//-----------------------------SecondHighestNumber----------------------------------------------------------------
+//		SecondHighestNumber obj = new SecondHighestNumber();
+	
+//-----------------------------ArmstrongNumber----------------------------------------------------------------
+//		ArmstrongNumber obj = new ArmstrongNumber();
+
+//-----------------------------CountNumberOfWords----------------------------------------------------------------
+//		CountNumberOfWords obj = new CountNumberOfWords();
+
+//-----------------------------RemoveAllWhiteSpaces----------------------------------------------------------------
+//		RemoveAllWhiteSpaces obj = new RemoveAllWhiteSpaces();
 		
+//-----------------------------AllPermutationsOfAString----------------------------------------------------------------
+//		AllPermutationsOfAString obj = new AllPermutationsOfAString();
+
+//-----------------------------AllCombinationsOfAString----------------------------------------------------------------
+//		AllCombinationsOfAString obj = new AllCombinationsOfAString();
+
+//-----------------------------ConvertCases----------------------------------------------------------------
+//		ConvertCases obj = new ConvertCases();
+
+//-----------------------------ReverseWordsOfASentence----------------------------------------------------------------
+//		ReverseWordsOfASentence obj = new ReverseWordsOfASentence();
+
 //		obj.findSolution();
 		
 	}
